@@ -139,7 +139,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			//TODO: save filter selection when data are updated
 			var nl:ArrayCollection = new ArrayCollection();
-			for each (var item:Object in dataGrid.originalCollection)
+			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
 				var label:String = column.itemToLabel(item);
 				if (label && !nl.contains(label))

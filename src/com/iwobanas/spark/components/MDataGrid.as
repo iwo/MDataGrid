@@ -2,8 +2,10 @@ package com.iwobanas.spark.components
 {
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
 	
+	import mx.collections.ArrayCollection;
 	import mx.collections.ICollectionView;
 	import mx.collections.IList;
+	import mx.collections.ListCollectionView;
 	
 	import spark.components.DataGrid;
 	import spark.components.gridClasses.GridColumn;
@@ -17,9 +19,29 @@ package com.iwobanas.spark.components
 		
 		private var collection:ICollectionView;
 		
+		private var _unfilteredCollection:ICollectionView;
+		
+		public function get unfilteredCollection():ICollectionView
+		{
+			return _unfilteredCollection;
+		}
+		
 		override public function set dataProvider(value:IList):void
 		{
 			collection = value as ICollectionView;
+			if (!collection)
+			{
+				_unfilteredCollection = null;
+			}
+			else if (collection is ListCollectionView)
+			{
+				_unfilteredCollection = new ListCollectionView(ListCollectionView(collection).list);
+			}
+			else
+			{
+				_unfilteredCollection = new ListCollectionView(value);
+			}
+			
 			super.dataProvider = value;
 		}
 		

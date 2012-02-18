@@ -3,8 +3,9 @@
 	xmlns:fx="http://ns.adobe.com/mxml/2009" 
 	xmlns:s="library://ns.adobe.com/flex/spark"
 	xmlns:mx="library://ns.adobe.com/flex/mx"
+	xmlns:gridClasses="com.iwobanas.spark.components.gridClasses.*"
+	xmlns:components="com.iwobanas.spark.components.*"
 	viewSourceURL="srcview/index.html"
-	width="800" height="600"
 	>
 	<fx:Script>
 		<![CDATA[
@@ -19,58 +20,25 @@
 	
 
 	<mx:Panel title="DateGrid example" width="95%" height="95%" >
-
-		<s:DropDownList>
-			<s:dataProvider>
-				<s:ArrayList>
-					<fx:String>Option 1</fx:String>
-					<fx:String>qwer</fx:String>
-					<fx:String>asdf</fx:String>
-					<fx:String>zxvc</fx:String>
-				</s:ArrayList>
-			</s:dataProvider>
-		</s:DropDownList>
 		
-		<s:DataGrid id="dataGrid" dataProvider="{new XMLListCollection(reed.course)}"
+		<components:MDataGrid id="dataGrid" dataProvider="{new XMLListCollection(reed.course)}"
 			width="100%" height="100%" verticalScrollPolicy="on" horizontalScrollPolicy="on">
-			<s:columns>
+			<components:columns>
 				<s:ArrayList>
-					<s:GridColumn dataField="title" headerText="Title" width="200"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer" />
-					<s:GridColumn dataField="points" headerText="Points" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="subj" headerText="Subject" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="instructor" headerText="Instructor" width="100" 
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
+					<gridClasses:MDataGridColumn dataField="title" headerText="Title" width="200"/>
+					<gridClasses:MDataGridColumn dataField="points" headerText="Points" width="90"/>
+					<gridClasses:MDataGridColumn dataField="subj" headerText="Subject" width="90"/>
+					<gridClasses:MDataGridColumn dataField="instructor" headerText="Instructor" width="100"/> 
 					
-					<s:GridColumn dataField="title" headerText="Title" width="200"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer" />
-					<s:GridColumn dataField="points" headerText="Points" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="subj" headerText="Subject" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="instructor" headerText="Instructor" width="100" 
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="title" headerText="Title" width="200"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer" />
-					<s:GridColumn dataField="points" headerText="Points" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="subj" headerText="Subject" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="instructor" headerText="Instructor" width="100" 
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="title" headerText="Title" width="200"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer" />
-					<s:GridColumn dataField="points" headerText="Points" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="subj" headerText="Subject" width="50"
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
-					<s:GridColumn dataField="instructor" headerText="Instructor" width="100" 
-								  headerRenderer="com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer"/>
+					<gridClasses:MDataGridColumn dataField="title" headerText="Title" width="200"/>
+					<gridClasses:MDataGridColumn dataField="points" headerText="Points" width="90"/>
+					<gridClasses:MDataGridColumn dataField="subj" headerText="Subject" width="90"/>
+					<gridClasses:MDataGridColumn dataField="instructor" headerText="Instructor" width="100"/> 
+					<gridClasses:MDataGridColumn dataField="title" headerText="Title" width="200"/>
+					<gridClasses:MDataGridColumn dataField="points" headerText="Points" width="90"/>
 				</s:ArrayList>
-            </s:columns>
-		</s:DataGrid>
+            </components:columns>
+		</components:MDataGrid>
 		
 		<mx:ControlBar>
 			<mx:Spacer width="100%" />

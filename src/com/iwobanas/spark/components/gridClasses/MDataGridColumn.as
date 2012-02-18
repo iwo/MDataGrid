@@ -72,7 +72,7 @@ package com.iwobanas.spark.components.gridClasses
 			
 			// set default renderers
 			headerRenderer = new ClassFactory(com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer);
-			//filterEditor = new ClassFactory(com.iwobanas.spark.components.gridClasses.filterEditors.WildcardFilterEditor);
+			filterEditor = new ClassFactory(com.iwobanas.spark.components.gridClasses.filterEditors.WildcardFilterEditor);
 		}
 		
 		/**
@@ -103,7 +103,7 @@ package com.iwobanas.spark.components.gridClasses
 		{
 			_filter = value;
 			_filter.column = this;
-			MDataGrid(mx_internal::owner).invalidateColumnFilters();
+			MDataGrid(grid.dataGrid).invalidateColumnFilters();
 			dispatchEvent(new Event("filterChange"));
 		}
 		/**

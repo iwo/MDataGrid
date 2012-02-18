@@ -133,7 +133,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		protected function get dataGrid():MDataGrid
 		{
-			return column.mx_internal::owner as MDataGrid;
+			return column.grid.dataGrid as MDataGrid;
 		}
 		
 		/**

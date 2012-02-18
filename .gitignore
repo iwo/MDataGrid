@@ -1,0 +1,7 @@
+# Flash Builder files
+.settings
+bin-debug
+
+# SVN
+.svn
+

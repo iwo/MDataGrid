@@ -113,7 +113,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			var min:Number = Number.MAX_VALUE;
 			var max:Number = Number.MIN_VALUE;
-			for each (var item:Object in dataGrid.originalCollection)
+			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
 				var value:Number = itemToNumber(item);
 				if (!isNaN(value))
@@ -138,7 +138,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 * @private
 		 * Collection change event handler attached to original collection of MDataGrid.
 		 */ 
-		override protected function originalCollectionChangeHandler(event:Event):void
+		override protected function unfilteredCollectionChangeHandler(event:Event):void
 		{
 			updateOriginalDataRange();
 		}

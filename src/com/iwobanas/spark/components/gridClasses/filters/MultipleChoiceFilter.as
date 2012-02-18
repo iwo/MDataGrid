@@ -166,7 +166,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		/**
 		 * MDataGrid original collection change event handler.
 		 */
-		override protected function originalCollectionChangeHandler(event:Event):void
+		override protected function unfilteredCollectionChangeHandler(event:Event):void
 		{
 			updateLabels();
 		}

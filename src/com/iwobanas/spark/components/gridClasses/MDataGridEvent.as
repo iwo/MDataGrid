@@ -46,12 +46,12 @@ package com.iwobanas.spark.components.gridClasses
 		public static const FILTER_VALUE_CHANGE:String = "filterValueChange";
 		
 		/**
-		 * The MDataGridEvent.ORIGINAL_COLLECTION_CHANGE constant defines the value of the 
+		 * The MDataGridEvent.UNFILTERED_COLLECTION_CHANGE constant defines the value of the 
      	 * <code>type</code> property of the event object for a 
-     	 * <code>originalCollectionChange</code> event, which indicates that 
-     	 * the MDataGrid <code>originalCollectionChange</code> property was modified.
+     	 * <code>unfilteredCollectionChange</code> event, which indicates that 
+     	 * the MDataGrid <code>unfilteredCollectionChange</code> property was modified.
 		 */
-		public static const ORIGINAL_COLLECTION_CHANGE:String = "originalCollectionChange"
+		public static const UNFILTERED_COLLECTION_CHANGE:String = "unfilteredCollectionChange"
 		
 		/**
 		 * Constructor.

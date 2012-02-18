@@ -144,7 +144,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 * @private
 		 * Collection change event handler attached to original collection of MDataGrid.
 		 */ 
-		override protected function originalCollectionChangeHandler(event:Event):void
+		override protected function unfilteredCollectionChangeHandler(event:Event):void
 		{
 			updateOriginalDateRange();
 		}

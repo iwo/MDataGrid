@@ -34,7 +34,7 @@ and <code>sortIndicator</code> properties.</p>
 					xmlns:s="library://ns.adobe.com/flex/spark" 
 					xmlns:mx="library://ns.adobe.com/flex/mx"
 					xmlns:supportClasses="spark.components.supportClasses.*"
-					initialize="{trace('initialize header')}" xmlns:filterEditors="com.iwobanas.spark.components.gridClasses.filterEditors.*"
+					xmlns:filterEditors="com.iwobanas.spark.components.gridClasses.filterEditors.*"
 					>
 	
 	<fx:Declarations>
@@ -57,20 +57,11 @@ and <code>sortIndicator</code> properties.</p>
 						import spark.components.DataGrid;
 						import spark.components.Grid;
 						
-						private var previousColumnIndex:int = -1;
-						
 						/**
 						 *  @private
 						 */
 						public function prepareGridVisualElement(grid:Grid, rowIndex:int, columnIndex:int):void
 						{
-							trace('prepare header');
-							
-							if (columnIndex != previousColumnIndex)
-							{
-								trace('Column index change', previousColumnIndex, columnIndex);
-								previousColumnIndex = columnIndex;
-							}
 							const dataGrid:DataGrid = grid.dataGrid;
 							if (!dataGrid)
 								return;
@@ -500,7 +491,7 @@ and <code>sortIndicator</code> properties.</p>
 					<s:SolidColor color="#aaffee" />
 				</s:fill>
 			</s:Rect>
-			<filterEditors:WildcardFilterEditor id="filterEditor" />
+			<filterEditors:MultipleChoiceFilterEditor id="filterEditor" />
 		</s:Group>
 	</s:PopUpAnchor>
 	

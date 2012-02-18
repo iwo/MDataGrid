@@ -515,7 +515,7 @@ and <code>sortIndicator</code> properties.</p>
 	
 	<s:PopUpAnchor id="popUpAnchor"
 				   left="0" right="0" top="0" bottom="-1"
-				   popUpPosition="below" popUpWidthMatchesAnchorWidth="true">
+				   popUpPosition="below" popUpWidthMatchesAnchorWidth="false">
 	</s:PopUpAnchor>
 	
 	<s:HGroup left="7" right="7" top="5" bottom="5" gap="2" verticalAlign="middle">

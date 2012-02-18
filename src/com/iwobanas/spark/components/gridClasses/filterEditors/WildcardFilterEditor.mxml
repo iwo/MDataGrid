@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+The contents of this file are subject to the Mozilla Public License
+Version 1.1 (the "License"); you may not use this file except in
+compliance with the License. You may obtain a copy of the License at
+http://www.mozilla.org/MPL/
+
+Software distributed under the License is distributed on an "AS IS"
+basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+License for the specific language governing rights and limitations
+under the License.
+
+The Original Code is: www.iwobanas.com code samples.
+
+The Initial Developer of the Original Code is Iwo Banas.
+Portions created by the Initial Developer are Copyright (C) 2009
+the Initial Developer. All Rights Reserved.
+
+Contributor(s):
+-->
+<FilterEditorBase xmlns="com.iwobanas.spark.components.gridClasses.filterEditors.*" 
+	xmlns:mx="http://www.adobe.com/2006/mxml">
+	<mx:Script>
+		<![CDATA[
+			import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
+			import com.iwobanas.spark.components.gridClasses.filters.WildcardFilter;
+			
+			[Bindable]
+			protected var filter:WildcardFilter;
+			
+			override public function startEdit(column:MDataGridColumn):void
+			{
+				super.startEdit(column);
+				if (!column.filter || !column.filter is WildcardFilter)
+				{
+					column.filter = new WildcardFilter();
+				}
+				
+				filter = column.filter as WildcardFilter;
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:Label text="Value contains:" toolTip="Show only rows which contains given text in this column." />
+	<mx:TextInput id="wildcardInput" 
+		width="100%"
+		toolTip="You can use wildcards like * or ? to match any sequence of characters or single character."
+		text="{filter.wildcard}"
+		creationComplete="{wildcardInput.setFocus()}"
+		change="{filter.wildcard = wildcardInput.text}" />
+		
+</FilterEditorBase>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FilterEditorBase xmlns="com.iwobanas.spark.components.gridClasses.filterEditors.*" 
+	xmlns:mx="http://www.adobe.com/2006/mxml">
+	<mx:Script>
+		<![CDATA[
+			import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
+			import com.iwobanas.spark.components.gridClasses.filters.DateRangeFilter;
+			
+			[Bindable]
+			protected var filter:DateRangeFilter;
+			
+			override public function startEdit(column:MDataGridColumn):void
+			{
+				super.startEdit(column);
+				if (!column.filter || !column.filter is DateRangeFilter)
+				{
+					column.filter = new DateRangeFilter(column);
+				}
+				
+				filter = column.filter as DateRangeFilter;
+			}
+			
+		]]>
+	</mx:Script>
+	<mx:Label text="From" />
+	<mx:DateField id="minChooser" 
+		selectedDate="{filter.minimum}"
+		yearNavigationEnabled="true" 
+		change="{filter.minimum = (minChooser.selectedDate ? minChooser.selectedDate : filter.dataMinimum)}" />
+	
+	<mx:Label text="To" />
+	<mx:DateField id="maxChooser" 
+		selectedDate="{filter.maximum}" 
+		yearNavigationEnabled="true"
+		change="{filter.maximum = (maxChooser.selectedDate ? maxChooser.selectedDate : filter.dataMaximum)}"  />
+	
+	<mx:LinkButton label="Reset" width="100%" 
+		click="{filter.minimum = filter.dataMinimum; filter.maximum = filter.dataMaximum}"
+		enabled="{filter.isActive}" />
+</FilterEditorBase>

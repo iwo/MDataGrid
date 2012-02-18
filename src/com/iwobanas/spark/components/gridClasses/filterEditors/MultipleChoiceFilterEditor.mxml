@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+The contents of this file are subject to the Mozilla Public License
+Version 1.1 (the "License"); you may not use this file except in
+compliance with the License. You may obtain a copy of the License at
+http://www.mozilla.org/MPL/
+
+Software distributed under the License is distributed on an "AS IS"
+basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+License for the specific language governing rights and limitations
+under the License.
+
+The Original Code is: www.iwobanas.com code samples.
+
+The Initial Developer of the Original Code is Iwo Banas.
+Portions created by the Initial Developer are Copyright (C) 2009
+the Initial Developer. All Rights Reserved.
+
+Contributor(s):
+-->
+<FilterEditorBase xmlns="com.iwobanas.spark.components.gridClasses.filterEditors.*" 
+	xmlns:mx="http://www.adobe.com/2006/mxml" width="{column.width}">
+	<mx:Script>
+		<![CDATA[
+			import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
+			import com.iwobanas.spark.components.gridClasses.filters.MultipleChoiceFilter;
+			
+			[Bindable]
+			public var filter:MultipleChoiceFilter;
+			
+			override public function startEdit(column:MDataGridColumn):void
+			{
+				super.startEdit(column);
+				if (!column.filter || !column.filter is MultipleChoiceFilter)
+				{
+					column.filter = new MultipleChoiceFilter();
+				}
+				
+				filter = column.filter as MultipleChoiceFilter;
+			}
+			
+			protected function allCheckboxChangeHandler(event:Event):void
+			{
+				if (filter.isActive || filter.selectedLabels.length == 0)
+				{
+					filter.selectAll();
+				}
+				else
+				{
+					filter.deselectAll();
+				}
+				labelList.executeBindings(true);
+			}
+			
+		]]>
+	</mx:Script>
+
+	<mx:CheckBox id="allCheckbox" label="All" selected="{!(filter.isActive || filter.selectedLabels.length == 0)}"
+		change="{allCheckboxChangeHandler(event)}"
+		creationComplete="{allCheckbox.setFocus()}" />
+		
+	<mx:List id="labelList" dataProvider="{filter.labels}" width="100%">
+		<mx:itemRenderer>
+			<mx:Component>
+				<mx:CheckBox label="{data}"
+					selected="{parentDocument.filter.selectedLabels.contains(data)}"
+					change="{selected ? parentDocument.filter.selectLabel(data):parentDocument.filter.deselectLabel(data)}">
+				</mx:CheckBox>
+			</mx:Component>
+		</mx:itemRenderer>
+	</mx:List>
+</FilterEditorBase>

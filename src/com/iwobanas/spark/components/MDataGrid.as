@@ -8,5 +8,11 @@ package com.iwobanas.spark.components
 		{
 			super();
 		}
+		
+		public function invalidateColumnFilters():void
+		{
+			// TODO Auto Generated method stub
+			
+		}
 	}
 }

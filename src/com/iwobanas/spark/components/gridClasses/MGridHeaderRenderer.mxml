@@ -32,7 +32,10 @@ and <code>sortIndicator</code> properties.</p>
 <s:GridItemRenderer minWidth="21" minHeight="21"
 					xmlns:fx="http://ns.adobe.com/mxml/2009" 
 					xmlns:s="library://ns.adobe.com/flex/spark" 
-					xmlns:mx="library://ns.adobe.com/flex/mx">
+					xmlns:mx="library://ns.adobe.com/flex/mx"
+					xmlns:supportClasses="spark.components.supportClasses.*"
+					initialize="{trace('initialize header')}"
+					>
 	
 	<fx:Declarations>
 		<!--- The default value of the <code>sortIndicator</code> property.
@@ -54,11 +57,20 @@ and <code>sortIndicator</code> properties.</p>
 						import spark.components.DataGrid;
 						import spark.components.Grid;
 						
+						private var previousColumnIndex:int = -1;
+						
 						/**
 						 *  @private
 						 */
 						public function prepareGridVisualElement(grid:Grid, rowIndex:int, columnIndex:int):void
 						{
+							trace('prepare header');
+							
+							if (columnIndex != previousColumnIndex)
+							{
+								trace('Column index change', previousColumnIndex, columnIndex);
+								previousColumnIndex = columnIndex;
+							}
 							const dataGrid:DataGrid = grid.dataGrid;
 							if (!dataGrid)
 								return;
@@ -105,6 +117,10 @@ and <code>sortIndicator</code> properties.</p>
 				 verticalAlign="middle"
 				 maxDisplayedLines="1"
 				 showTruncationTip="true" />
+		
+		<supportClasses:DropDownController
+			openButton="{filterButton}"
+			dropDown="{dropDown}" />
 	</fx:Declarations>
 	
 	<fx:Script>
@@ -353,6 +369,8 @@ and <code>sortIndicator</code> properties.</p>
 			protected function filterButton_clickHandler(event:MouseEvent):void
 			{
 				event.stopPropagation();
+				if (popUpAnchor)
+					popUpAnchor.displayPopUp = !popUpAnchor.displayPopUp;
 			}
 			
 			protected function filterButton_mouseDownHandler(event:MouseEvent):void
@@ -470,6 +488,19 @@ and <code>sortIndicator</code> properties.</p>
 			</s:LinearGradientStroke>
 		</s:stroke>
 	</s:Rect>
+	
+	<s:PopUpAnchor id="popUpAnchor"
+				   left="0" right="0" top="0" bottom="0"
+				   popUpPosition="below" popUpWidthMatchesAnchorWidth="true">
+		<s:Group id="dropDown">
+			<s:Rect minWidth="50" width="100%" height="150">
+				<s:fill>
+					<s:SolidColor color="#145672" />
+				</s:fill>
+			</s:Rect>
+			<s:Label text="Hello world!" />
+		</s:Group>
+	</s:PopUpAnchor>
 	
 	<s:HGroup left="7" right="7" top="5" bottom="5" gap="2" verticalAlign="middle">
 		

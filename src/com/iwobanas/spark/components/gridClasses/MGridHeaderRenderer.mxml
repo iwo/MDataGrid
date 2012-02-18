@@ -108,14 +108,11 @@ and <code>sortIndicator</code> properties.</p>
 				 verticalAlign="middle"
 				 maxDisplayedLines="1"
 				 showTruncationTip="true" />
-		
-		<supportClasses:DropDownController
-			openButton="{filterButton}"
-			dropDown="{dropDown}" />
 	</fx:Declarations>
 	
 	<fx:Script>
 		<![CDATA[
+			import com.iwobanas.spark.components.MDataGrid;
 			import spark.components.gridClasses.IGridVisualElement;
 			import mx.core.IVisualElement;
 			
@@ -357,11 +354,47 @@ and <code>sortIndicator</code> properties.</p>
 				}
 			}
 			
+			
+			// FILTERING
+			
+			protected function openFilterEditor():void
+			{
+				var column:MDataGridColumn = this.column as MDataGridColumn;
+				if (!column)
+					return;
+				
+				if (!column.filterEditorInstance)
+					column.filterEditorInstance = column.filterEditor.newInstance();
+				
+				popUpAnchor.popUp = column.filterEditorInstance;
+				popUpAnchor.displayPopUp = true;
+				column.filterEditorInstance.startEdit(column);
+			}
+			
+			protected function closeFilterEditor():void
+			{
+				var column:MDataGridColumn = this.column as MDataGridColumn;
+				if (!column)
+					return;
+				column.filterEditorInstance.endEdit();
+				popUpAnchor.displayPopUp = false;
+			}
+			
 			protected function filterButton_clickHandler(event:MouseEvent):void
 			{
 				event.stopPropagation();
+				
 				if (popUpAnchor)
-					popUpAnchor.displayPopUp = !popUpAnchor.displayPopUp;
+				{
+					if (popUpAnchor.displayPopUp)
+					{
+						closeFilterEditor();
+					}
+					else
+					{
+						openFilterEditor();
+					}
+				}
 			}
 			
 			protected function filterButton_mouseDownHandler(event:MouseEvent):void
@@ -483,16 +516,6 @@ and <code>sortIndicator</code> properties.</p>
 	<s:PopUpAnchor id="popUpAnchor"
 				   left="0" right="0" top="0" bottom="-1"
 				   popUpPosition="below" popUpWidthMatchesAnchorWidth="true">
-		<s:Group id="dropDown"
-				 addedToStage="{filterEditor.startEdit(column as MDataGridColumn)}"
-				 removedFromStage="{filterEditor.endEdit()}">
-			<s:Rect minWidth="50" width="100%" height="150">
-				<s:fill>
-					<s:SolidColor color="#aaffee" />
-				</s:fill>
-			</s:Rect>
-			<filterEditors:MultipleChoiceFilterEditor id="filterEditor" />
-		</s:Group>
 	</s:PopUpAnchor>
 	
 	<s:HGroup left="7" right="7" top="5" bottom="5" gap="2" verticalAlign="middle">

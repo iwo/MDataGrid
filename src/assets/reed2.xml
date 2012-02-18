@@ -1,0 +1,3549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coursers>
+  <course>
+    <id>10577</id>
+    <title>Introduction to Anthropology</title>
+    <instructor>Brightman</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Sun Aug 8 00:00:00 GMT+0200 2004</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>20573</id>
+    <title>Sex and Gender</title>
+    <instructor>Makley</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Wed Jun 27 00:00:00 GMT+0200 2007</startDate>
+    <points>56</points>
+  </course>
+  <course>
+    <id>10624</id>
+    <title>Field Biology of Amphibians</title>
+    <instructor>Kaplan</instructor>
+    <subj>BIOL</subj>
+    <units>0.5</units>
+    <startDate>Mon Aug 4 00:00:00 GMT+0200 2008</startDate>
+    <points>61</points>
+  </course>
+  <course>
+    <id>10626</id>
+    <title>Bacterial Pathogenesis</title>
+    <instructor/>
+    <subj>BIOL</subj>
+    <units>0.5</units>
+    <startDate>Tue Jul 3 00:00:00 GMT+0200 2007</startDate>
+    <points>1</points>
+  </course>
+  <course>
+    <id>20626</id>
+    <title>Seminar in Biology</title>
+    <instructor>Yezerinac</instructor>
+    <subj>BIOL</subj>
+    <units>0.5</units>
+    <startDate>Thu Apr 11 00:00:00 GMT+0200 2002</startDate>
+    <points>57</points>
+  </course>
+  <course>
+    <id>10543</id>
+    <title>MolecularStructure and Properties</title>
+    <instructor>Geselbracht</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Thu May 20 00:00:00 GMT+0200 2004</startDate>
+    <points>19</points>
+  </course>
+  <course>
+    <id>20483</id>
+    <title>Languages the Americas:Mayan</title>
+    <instructor>Haviland</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Sat Nov 19 00:00:00 GMT+0100 2005</startDate>
+    <points>78</points>
+  </course>
+  <course>
+    <id>20537</id>
+    <title>Chemical Reactivity</title>
+    <instructor>Glasfeld</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Thu Aug 15 00:00:00 GMT+0200 2002</startDate>
+    <points>53</points>
+  </course>
+  <course>
+    <id>20667</id>
+    <title>Anthropology of Europe</title>
+    <instructor>Silverstein</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Tue Aug 22 00:00:00 GMT+0200 2006</startDate>
+    <points>72</points>
+  </course>
+  <course>
+    <id>10559</id>
+    <title>Organic Chemistry I</title>
+    <instructor>Shusterman</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Thu Feb 23 00:00:00 GMT+0100 2006</startDate>
+    <points>35</points>
+  </course>
+  <course>
+    <id>20548</id>
+    <title>Organic Chemistry II</title>
+    <instructor>McDougal</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Wed May 5 00:00:00 GMT+0200 1999</startDate>
+    <points>84</points>
+  </course>
+  <course>
+    <id>20571</id>
+    <title>Prob in IndonesianEthnography</title>
+    <instructor>Stasch</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Fri Jul 25 00:00:00 GMT+0200 2003</startDate>
+    <points>53</points>
+  </course>
+  <course>
+    <id>20557</id>
+    <title>Intro Inorganic Chemistry</title>
+    <instructor>Geselbracht</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Tue Jul 18 00:00:00 GMT+0200 2000</startDate>
+    <points>61</points>
+  </course>
+  <course>
+    <id>10605</id>
+    <title>Gender and Ethnicity China, Tibet</title>
+    <instructor>Makley</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Tue Feb 26 00:00:00 GMT+0100 2008</startDate>
+    <points>57</points>
+  </course>
+  <course>
+    <id>10582</id>
+    <title>Environmental Chemistry</title>
+    <instructor>Dunne</instructor>
+    <subj>CHEM</subj>
+    <units>0.5</units>
+    <startDate>Mon Feb 4 00:00:00 GMT+0100 2008</startDate>
+    <points>90</points>
+  </course>
+  <course>
+    <id>10568</id>
+    <title>Analytical Chemistry</title>
+    <instructor>McClard</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 9 00:00:00 GMT+0100 2007</startDate>
+    <points>42</points>
+  </course>
+  <course>
+    <id>20561</id>
+    <title>Physical Chemistry Laboratory</title>
+    <instructor>Ahmadi</instructor>
+    <subj>CHEM</subj>
+    <units>0.5</units>
+    <startDate>Sat Mar 3 00:00:00 GMT+0100 2007</startDate>
+    <points>78</points>
+  </course>
+  <course>
+    <id>20563</id>
+    <title>Computational Organic Chem</title>
+    <instructor>Shusterman</instructor>
+    <subj>CHEM</subj>
+    <units>0.5</units>
+    <startDate>Fri May 9 00:00:00 GMT+0200 2008</startDate>
+    <points>76</points>
+  </course>
+  <course>
+    <id>20564</id>
+    <title>Statistical Thermodynamics</title>
+    <instructor>Ahmadi</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Sun May 28 00:00:00 GMT+0200 2000</startDate>
+    <points>12</points>
+  </course>
+  <course>
+    <id>10571</id>
+    <title>Quantum Mechanics and MolStruct</title>
+    <instructor>Ahmadi</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Sun Jun 9 00:00:00 GMT+0200 2002</startDate>
+    <points>87</points>
+  </course>
+  <course>
+    <id>20565</id>
+    <title>Advanced Inorganic Chemistry</title>
+    <instructor>Geselbracht</instructor>
+    <subj>CHEM</subj>
+    <units>0.5</units>
+    <startDate>Sat Apr 13 00:00:00 GMT+0200 2002</startDate>
+    <points>52</points>
+  </course>
+  <course>
+    <id>10572</id>
+    <title>Adv Synth Organic Chemistry</title>
+    <instructor>McDougal</instructor>
+    <subj>CHEM</subj>
+    <units>1.0</units>
+    <startDate>Sun May 1 00:00:00 GMT+0200 2005</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>20570</id>
+    <title>Myth</title>
+    <instructor>Stasch</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Wed Sep 13 00:00:00 GMT+0200 2006</startDate>
+    <points>24</points>
+  </course>
+  <course>
+    <id>10574</id>
+    <title>Structural Biochemistry</title>
+    <instructor>Glasfeld</instructor>
+    <subj>CHEM</subj>
+    <units>0.5</units>
+    <startDate>Thu Aug 29 00:00:00 GMT+0200 2002</startDate>
+    <points>28</points>
+  </course>
+  <course>
+    <id>20566</id>
+    <title>Metabolic Biochemistry</title>
+    <instructor>McClard</instructor>
+    <subj>CHEM</subj>
+    <units>0.5</units>
+    <startDate>Mon Feb 24 00:00:00 GMT+0100 2003</startDate>
+    <points>42</points>
+  </course>
+  <course>
+    <id>20567</id>
+    <title>Biochemical Methods</title>
+    <instructor>McClard</instructor>
+    <subj>CHEM</subj>
+    <units>0.5</units>
+    <startDate>Sun Jun 20 00:00:00 GMT+0200 2004</startDate>
+    <points>36</points>
+  </course>
+  <course>
+    <id>10377</id>
+    <title>First Year Chinese</title>
+    <instructor/>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Mon May 6 00:00:00 GMT+0200 2002</startDate>
+    <points>70</points>
+  </course>
+  <course>
+    <id>10118</id>
+    <title>Second Year Chinese</title>
+    <instructor/>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Mon Aug 2 00:00:00 GMT+0200 1999</startDate>
+    <points>66</points>
+  </course>
+  <course>
+    <id>20598</id>
+    <title>Third Year Chinese</title>
+    <instructor>Wu</instructor>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Mon Feb 22 00:00:00 GMT+0100 1999</startDate>
+    <points>12</points>
+  </course>
+  <course>
+    <id>20572</id>
+    <title>Media and Culture Post-MaoChina</title>
+    <instructor>Makley</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Tue Oct 4 00:00:00 GMT+0200 2005</startDate>
+    <points>31</points>
+  </course>
+  <course>
+    <id>10629</id>
+    <title>Classical Chinese</title>
+    <instructor>Rhew</instructor>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Fri Jan 31 00:00:00 GMT+0100 2003</startDate>
+    <points>61</points>
+  </course>
+  <course>
+    <id>10628</id>
+    <title>20 Cent Chin Fiction, 1919-49</title>
+    <instructor>Wu</instructor>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Wed Mar 1 00:00:00 GMT+0100 2006</startDate>
+    <points>87</points>
+  </course>
+  <course>
+    <id>10630</id>
+    <title>Chinese Narrative Tradition</title>
+    <instructor>Rhew</instructor>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Fri May 6 00:00:00 GMT+0200 2005</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>20596</id>
+    <title>Yijing: Text and Tradition</title>
+    <instructor>Rhew</instructor>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Fri Sep 7 00:00:00 GMT+0200 2001</startDate>
+    <points>47</points>
+  </course>
+  <course>
+    <id>20601</id>
+    <title>20th Century Chinese Poetry</title>
+    <instructor>Wu</instructor>
+    <subj>CHIN</subj>
+    <units>1.0</units>
+    <startDate>Wed Sep 26 00:00:00 GMT+0200 2007</startDate>
+    <points>9</points>
+  </course>
+  <course>
+    <id>20486</id>
+    <title>Greek Tragedy</title>
+    <instructor>Englert</instructor>
+    <subj>CLAS</subj>
+    <units>1.0</units>
+    <startDate>Fri Jan 18 00:00:00 GMT+0100 2002</startDate>
+    <points>54</points>
+  </course>
+  <course>
+    <id>10489</id>
+    <title>Ancient History: Rome</title>
+    <instructor>Kelly</instructor>
+    <subj>CLAS</subj>
+    <units>1.0</units>
+    <startDate>Thu Aug 12 00:00:00 GMT+0200 1999</startDate>
+    <points>46</points>
+  </course>
+  <course>
+    <id>20488</id>
+    <title>Specl Topics in Roman History</title>
+    <instructor>Kelly</instructor>
+    <subj>CLAS</subj>
+    <units>1.0</units>
+    <startDate>Sun Feb 9 00:00:00 GMT+0100 2003</startDate>
+    <points>77</points>
+  </course>
+  <course>
+    <id>20503</id>
+    <title>Intro to Creative Writing</title>
+    <instructor>Hillis</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Sun Mar 16 00:00:00 GMT+0100 2003</startDate>
+    <points>68</points>
+  </course>
+  <course>
+    <id>10515</id>
+    <title>Intro Poetry Writing</title>
+    <instructor>Williams</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Sat Feb 9 00:00:00 GMT+0100 2002</startDate>
+    <points>59</points>
+  </course>
+  <course>
+    <id>20659</id>
+    <title>Indians and Northrn NativeAmers</title>
+    <instructor>Brightman</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Wed May 4 00:00:00 GMT+0200 2005</startDate>
+    <points>97</points>
+  </course>
+  <course>
+    <id>10516</id>
+    <title>Intro to Fiction Writing</title>
+    <instructor>Hillis</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Sat Jan 27 00:00:00 GMT+0100 2001</startDate>
+    <points>7</points>
+  </course>
+  <course>
+    <id>20642</id>
+    <title>Intermediate Poetry: StudioII</title>
+    <instructor>Williams</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 15 00:00:00 GMT+0100 2002</startDate>
+    <points>25</points>
+  </course>
+  <course>
+    <id>10517</id>
+    <title>Intro to ScreenwritingWrkshop</title>
+    <instructor>Hillis</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Thu Oct 14 00:00:00 GMT+0200 1999</startDate>
+    <points>9</points>
+  </course>
+  <course>
+    <id>10518</id>
+    <title>Adv Poet Writng: SequentVoice</title>
+    <instructor>Williams</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Sun Sep 2 00:00:00 GMT+0200 2007</startDate>
+    <points>64</points>
+  </course>
+  <course>
+    <id>20506</id>
+    <title>Adv Poet Writing:NaturalVoice</title>
+    <instructor>Williams</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Mon Aug 2 00:00:00 GMT+0200 2004</startDate>
+    <points>70</points>
+  </course>
+  <course>
+    <id>10519</id>
+    <title>Advanced Fiction Writing</title>
+    <instructor>Hillis</instructor>
+    <subj>CRWR</subj>
+    <units>1.0</units>
+    <startDate>Mon Oct 27 00:00:00 GMT+0100 2008</startDate>
+    <points>62</points>
+  </course>
+  <course>
+    <id>10119</id>
+    <title>Basic Technique</title>
+    <instructor>Mann</instructor>
+    <subj>DANC</subj>
+    <units>1.0</units>
+    <startDate>Wed Oct 22 00:00:00 GMT+0200 2008</startDate>
+    <points>57</points>
+  </course>
+  <course>
+    <id>10121</id>
+    <title>Technique, Design and Compostion</title>
+    <instructor>Wong</instructor>
+    <subj>DANC</subj>
+    <units>1.0</units>
+    <startDate>Mon Mar 25 00:00:00 GMT+0100 2002</startDate>
+    <points>15</points>
+  </course>
+  <course>
+    <id>20672</id>
+    <title>Urban Anthropology</title>
+    <instructor>Silverstein</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Wed Nov 15 00:00:00 GMT+0100 2000</startDate>
+    <points>13</points>
+  </course>
+  <course>
+    <id>20627</id>
+    <title>Improvisation</title>
+    <instructor>Mann</instructor>
+    <subj>DANC</subj>
+    <units>0.5</units>
+    <startDate>Mon Oct 1 00:00:00 GMT+0200 2001</startDate>
+    <points>77</points>
+  </course>
+  <course>
+    <id>10639</id>
+    <title>Adv Techniques and CompositionI</title>
+    <instructor>Mann</instructor>
+    <subj>DANC</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 10 00:00:00 GMT+0200 2003</startDate>
+    <points>35</points>
+  </course>
+  <course>
+    <id>20655</id>
+    <title>Adv Technique and CompositionII</title>
+    <instructor>Wong</instructor>
+    <subj>DANC</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 20 00:00:00 GMT+0200 2000</startDate>
+    <points>29</points>
+  </course>
+  <course>
+    <id>10631</id>
+    <title>Dance Theory and Criticism</title>
+    <instructor>Wong</instructor>
+    <subj>DANC</subj>
+    <units>1.0</units>
+    <startDate>Sat Mar 19 00:00:00 GMT+0100 2005</startDate>
+    <points>85</points>
+  </course>
+  <course>
+    <id>10324</id>
+    <title>Intro to Economic Analysis</title>
+    <instructor>Clausing</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Fri Feb 23 00:00:00 GMT+0100 2007</startDate>
+    <points>62</points>
+  </course>
+  <course>
+    <id>10583</id>
+    <title>Nature, Cult and Envirnmentalism</title>
+    <instructor>Brightman</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Tue Feb 26 00:00:00 GMT+0100 2002</startDate>
+    <points>56</points>
+  </course>
+  <course>
+    <id>10584</id>
+    <title>Survey of Econometric Methods</title>
+    <instructor>Netusil</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Tue Aug 14 00:00:00 GMT+0200 2001</startDate>
+    <points>66</points>
+  </course>
+  <course>
+    <id>20574</id>
+    <title>Theory and Practice Econometrics</title>
+    <instructor>Parker</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Wed May 16 00:00:00 GMT+0200 2007</startDate>
+    <points>29</points>
+  </course>
+  <course>
+    <id>10585</id>
+    <title>Microeconomic Theory</title>
+    <instructor>Despins</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 28 00:00:00 GMT+0200 2006</startDate>
+    <points>87</points>
+  </course>
+  <course>
+    <id>20576</id>
+    <title>Macroeconomic Theory</title>
+    <instructor>Parker</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Fri Jul 4 00:00:00 GMT+0200 2003</startDate>
+    <points>2</points>
+  </course>
+  <course>
+    <id>20580</id>
+    <title>History of Economic Thought</title>
+    <instructor>Clausing</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Mon Jan 28 00:00:00 GMT+0100 2008</startDate>
+    <points>30</points>
+  </course>
+  <course>
+    <id>10587</id>
+    <title>Monetary and Fiscal Policy</title>
+    <instructor>Parker</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 18 00:00:00 GMT+0200 2006</startDate>
+    <points>94</points>
+  </course>
+  <course>
+    <id>10589</id>
+    <title>International Macroeconomics</title>
+    <instructor>Clausing</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Thu Nov 22 00:00:00 GMT+0100 2001</startDate>
+    <points>28</points>
+  </course>
+  <course>
+    <id>20585</id>
+    <title>Economics of the PublicSector</title>
+    <instructor>Netusil</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Sun Jan 1 00:00:00 GMT+0100 2006</startDate>
+    <points>30</points>
+  </course>
+  <course>
+    <id>10586</id>
+    <title>Structuralism and Semiotics</title>
+    <instructor>Stasch</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Thu Feb 10 00:00:00 GMT+0100 2000</startDate>
+    <points>6</points>
+  </course>
+  <course>
+    <id>10590</id>
+    <title>Environment and Nat Resrce Econ</title>
+    <instructor>Netusil</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Sat Aug 16 00:00:00 GMT+0200 2008</startDate>
+    <points>47</points>
+  </course>
+  <course>
+    <id>10591</id>
+    <title>Economics of Development</title>
+    <instructor>Despins</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Sun Jan 20 00:00:00 GMT+0100 2002</startDate>
+    <points>77</points>
+  </course>
+  <course>
+    <id>20582</id>
+    <title>International Trade</title>
+    <instructor>Clausing</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 16 00:00:00 GMT+0100 2000</startDate>
+    <points>39</points>
+  </course>
+  <course>
+    <id>10592</id>
+    <title>Seminar: Unemployment</title>
+    <instructor>Parker</instructor>
+    <subj>ECON</subj>
+    <units>0.5</units>
+    <startDate>Tue Feb 13 00:00:00 GMT+0100 2007</startDate>
+    <points>90</points>
+  </course>
+  <course>
+    <id>20602</id>
+    <title>Economics and Game Theory</title>
+    <instructor>Despins</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Sun Jul 7 00:00:00 GMT+0200 2002</startDate>
+    <points>24</points>
+  </course>
+  <course>
+    <id>20592</id>
+    <title>Econ Envirn, Intl Trade,Devel</title>
+    <instructor>Despins</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Tue Jul 10 00:00:00 GMT+0200 2001</startDate>
+    <points>35</points>
+  </course>
+  <course>
+    <id>10597</id>
+    <title>Economic Growth</title>
+    <instructor>Parker</instructor>
+    <subj>ECON</subj>
+    <units>1.0</units>
+    <startDate>Fri Sep 26 00:00:00 GMT+0200 2008</startDate>
+    <points>68</points>
+  </course>
+  <course>
+    <id>10503</id>
+    <title>Intro Narr:Native AmericanLit</title>
+    <instructor>Arnold</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Thu Feb 16 00:00:00 GMT+0100 2006</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10774</id>
+    <title>Intro Narr: Telling Lives</title>
+    <instructor>Leveen</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Tue Feb 29 00:00:00 GMT+0100 2000</startDate>
+    <points>15</points>
+  </course>
+  <course>
+    <id>20508</id>
+    <title>Intro Narrative: The Essay</title>
+    <instructor>Duquette</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sun Feb 10 00:00:00 GMT+0100 2008</startDate>
+    <points>9</points>
+  </course>
+  <course>
+    <id>10504</id>
+    <title>Intro Fict:Colonl and LaterNovels</title>
+    <instructor>Gillcrist</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 1 00:00:00 GMT+0200 2005</startDate>
+    <points>88</points>
+  </course>
+  <course>
+    <id>10505</id>
+    <title>Intro Fict:Portraits ofLadies</title>
+    <instructor>King</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Wed Jun 13 00:00:00 GMT+0200 2007</startDate>
+    <points>98</points>
+  </course>
+  <course>
+    <id>20509</id>
+    <title>Intro Fict: The Short Story</title>
+    <instructor>Baker</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Fri Nov 12 00:00:00 GMT+0100 1999</startDate>
+    <points>71</points>
+  </course>
+  <course>
+    <id>10506</id>
+    <title>Intro to Poetry and Poetics</title>
+    <instructor>Steinman</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sat Sep 1 00:00:00 GMT+0200 2001</startDate>
+    <points>72</points>
+  </course>
+  <course>
+    <id>10758</id>
+    <title>Intro to Drama: The 1990s</title>
+    <instructor>Savery</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sun Jun 11 00:00:00 GMT+0200 2006</startDate>
+    <points>21</points>
+  </course>
+  <course>
+    <id>20511</id>
+    <title>Intro Drama:Conventn and Inovatn</title>
+    <instructor>Porter</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Tue Jun 27 00:00:00 GMT+0200 2006</startDate>
+    <points>18</points>
+  </course>
+  <course>
+    <id>10508</id>
+    <title>Jun Sem: Epic and Novel</title>
+    <instructor>Sherman</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sat Nov 27 00:00:00 GMT+0100 2004</startDate>
+    <points>74</points>
+  </course>
+  <course>
+    <id>20660</id>
+    <title>Theories of Culture</title>
+    <instructor>Brightman</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Wed Sep 12 00:00:00 GMT+0200 2007</startDate>
+    <points>86</points>
+  </course>
+  <course>
+    <id>20513</id>
+    <title>Jun Sem:Irony, Allegory, Epic</title>
+    <instructor>Knapp</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 13 00:00:00 GMT+0200 2007</startDate>
+    <points>44</points>
+  </course>
+  <course>
+    <id>20647</id>
+    <title>Amer. Studies Seminar: TheEnd</title>
+    <instructor>Arnold</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Tue Oct 4 00:00:00 GMT+0200 2005</startDate>
+    <points>91</points>
+  </course>
+  <course>
+    <id>20514</id>
+    <title>Fict:Wolff,Forster,Bloomsbury</title>
+    <instructor>Gillcrist</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sat Oct 4 00:00:00 GMT+0200 2008</startDate>
+    <points>51</points>
+  </course>
+  <course>
+    <id>20515</id>
+    <title>Fict: Novel and Theory Mimesis</title>
+    <instructor>King</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sat Aug 23 00:00:00 GMT+0200 2003</startDate>
+    <points>18</points>
+  </course>
+  <course>
+    <id>20516</id>
+    <title>Mod Fict:Representing Mothers</title>
+    <instructor>Sherman</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Fri Jun 17 00:00:00 GMT+0200 2005</startDate>
+    <points>24</points>
+  </course>
+  <course>
+    <id>10509</id>
+    <title>American Lit: Race in America</title>
+    <instructor>Baker</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sun Sep 21 00:00:00 GMT+0200 2003</startDate>
+    <points>47</points>
+  </course>
+  <course>
+    <id>10510</id>
+    <title>Amer Lit: The James Brothers</title>
+    <instructor>Duquette</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 31 00:00:00 GMT+0200 2000</startDate>
+    <points>35</points>
+  </course>
+  <course>
+    <id>20677</id>
+    <title>American Lit: Speaking ofRace</title>
+    <instructor>Leveen</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Tue Nov 27 00:00:00 GMT+0100 2007</startDate>
+    <points>67</points>
+  </course>
+  <course>
+    <id>10511</id>
+    <title>20th Cent African-Amercan Lit</title>
+    <instructor>Savery</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Tue Jan 26 00:00:00 GMT+0100 1999</startDate>
+    <points>38</points>
+  </course>
+  <course>
+    <id>10512</id>
+    <title>Love in Shakespeare</title>
+    <instructor>Porter</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Tue Mar 26 00:00:00 GMT+0100 2002</startDate>
+    <points>23</points>
+  </course>
+  <course>
+    <id>10458</id>
+    <title>Introductory Drawing</title>
+    <instructor>Knutson</instructor>
+    <subj>ART</subj>
+    <units>0.5</units>
+    <startDate>Tue Aug 15 00:00:00 GMT+0200 2006</startDate>
+    <points>5</points>
+  </course>
+  <course>
+    <id>20517</id>
+    <title>Skepticism in Shakespeare</title>
+    <instructor>Knapp</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Mon Sep 26 00:00:00 GMT+0200 2005</startDate>
+    <points>98</points>
+  </course>
+  <course>
+    <id>10752</id>
+    <title>Poetry: Pound and H.D.</title>
+    <instructor>Stauder</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Thu Oct 28 00:00:00 GMT+0200 1999</startDate>
+    <points>59</points>
+  </course>
+  <course>
+    <id>20518</id>
+    <title>Poetry and History:Contemp Amer</title>
+    <instructor>Steinman</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Wed May 28 00:00:00 GMT+0200 2003</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10514</id>
+    <title>Literary Theory:EthicsReading</title>
+    <instructor>Knapp</instructor>
+    <subj>ENG</subj>
+    <units>1.0</units>
+    <startDate>Sat Aug 5 00:00:00 GMT+0200 2000</startDate>
+    <points>62</points>
+  </course>
+  <course>
+    <id>10136</id>
+    <title>First Year French</title>
+    <instructor/>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Mon Apr 5 00:00:00 GMT+0200 2004</startDate>
+    <points>70</points>
+  </course>
+  <course>
+    <id>10139</id>
+    <title>Second Year French</title>
+    <instructor>Delehanty</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Mon Feb 13 00:00:00 GMT+0100 2006</startDate>
+    <points>75</points>
+  </course>
+  <course>
+    <id>10142</id>
+    <title>Stylistics and Composition</title>
+    <instructor>Khan</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Sun Feb 28 00:00:00 GMT+0100 1999</startDate>
+    <points>27</points>
+  </course>
+  <course>
+    <id>10495</id>
+    <title>Lit and Society (16th Century)</title>
+    <instructor>Berkvam</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 19 00:00:00 GMT+0200 2007</startDate>
+    <points>10</points>
+  </course>
+  <course>
+    <id>20493</id>
+    <title>Lit and Society (18th Century)</title>
+    <instructor>Berkvam</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Tue Jan 23 00:00:00 GMT+0100 2001</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>20494</id>
+    <title>Early Modern French Narrative</title>
+    <instructor>Khan</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Sun Jan 28 00:00:00 GMT+0100 2001</startDate>
+    <points>68</points>
+  </course>
+  <course>
+    <id>20495</id>
+    <title>17th Cent French Drama</title>
+    <instructor>Delehanty</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Sat May 17 00:00:00 GMT+0200 2008</startDate>
+    <points>56</points>
+  </course>
+  <course>
+    <id>20496</id>
+    <title>20th C French Poetry and Poetics</title>
+    <instructor>Hochman</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Thu Jun 7 00:00:00 GMT+0200 2001</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>10496</id>
+    <title>20th Century French Theatre</title>
+    <instructor>Khan</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Sun Nov 21 00:00:00 GMT+0100 2004</startDate>
+    <points>97</points>
+  </course>
+  <course>
+    <id>10497</id>
+    <title>Seminar:Uses of Literature</title>
+    <instructor>Hochman</instructor>
+    <subj>FREN</subj>
+    <units>1.0</units>
+    <startDate>Sat Feb 14 00:00:00 GMT+0100 2004</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>10143</id>
+    <title>Frst Yr German:A Foundation</title>
+    <instructor/>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 23 00:00:00 GMT+0200 2004</startDate>
+    <points>92</points>
+  </course>
+  <course>
+    <id>20465</id>
+    <title>Figure Drawing</title>
+    <instructor>Ondrizek</instructor>
+    <subj>ART</subj>
+    <units>0.5</units>
+    <startDate>Fri Jun 30 00:00:00 GMT+0200 2000</startDate>
+    <points>2</points>
+  </course>
+  <course>
+    <id>10145</id>
+    <title>Secnd Yr Ger:CultralPerspctvs</title>
+    <instructor>Gokberk</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Tue Mar 11 00:00:00 GMT+0100 2003</startDate>
+    <points>89</points>
+  </course>
+  <course>
+    <id>10498</id>
+    <title>Adv Conversation and Writing</title>
+    <instructor>Mieszkowski</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Sat Feb 16 00:00:00 GMT+0100 2008</startDate>
+    <points>32</points>
+  </course>
+  <course>
+    <id>20499</id>
+    <title>Advancd Conversation and Writing</title>
+    <instructor>Irmscher</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Tue Feb 1 00:00:00 GMT+0100 2000</startDate>
+    <points>42</points>
+  </course>
+  <course>
+    <id>20497</id>
+    <title>Modernism: Berlin</title>
+    <instructor>Gokberk</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 29 00:00:00 GMT+0200 1999</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>20502</id>
+    <title>Contemporary German Prose</title>
+    <instructor>Gokberk</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Sat Feb 19 00:00:00 GMT+0100 2000</startDate>
+    <points>5</points>
+  </course>
+  <course>
+    <id>10501</id>
+    <title>Modern German Theatre</title>
+    <instructor>Rudolf</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 13 00:00:00 GMT+0100 2008</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10499</id>
+    <title>German Thought Postmodrn Era</title>
+    <instructor>Irmscher</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Sun Oct 19 00:00:00 GMT+0200 2008</startDate>
+    <points>81</points>
+  </course>
+  <course>
+    <id>20500</id>
+    <title>German Theory II: Body Media</title>
+    <instructor>Mieszkowski</instructor>
+    <subj>GER</subj>
+    <units>1.0</units>
+    <startDate>Wed Apr 14 00:00:00 GMT+0200 1999</startDate>
+    <points>52</points>
+  </course>
+  <course>
+    <id>10146</id>
+    <title>First Year Greek</title>
+    <instructor/>
+    <subj>GRK</subj>
+    <units>1.0</units>
+    <startDate>Sun Jun 13 00:00:00 GMT+0200 2004</startDate>
+    <points>83</points>
+  </course>
+  <course>
+    <id>10147</id>
+    <title>Second Year Greek</title>
+    <instructor>Wolfe</instructor>
+    <subj>GRK</subj>
+    <units>1.0</units>
+    <startDate>Tue Sep 26 00:00:00 GMT+0200 2000</startDate>
+    <points>24</points>
+  </course>
+  <course>
+    <id>20466</id>
+    <title>Printmaking</title>
+    <instructor>Knutson</instructor>
+    <subj>ART</subj>
+    <units>0.5</units>
+    <startDate>Sat Oct 18 00:00:00 GMT+0200 2008</startDate>
+    <points>30</points>
+  </course>
+  <course>
+    <id>10487</id>
+    <title>Advanced Greek</title>
+    <instructor>Tron</instructor>
+    <subj>GRK</subj>
+    <units>1.0</units>
+    <startDate>Sat Jul 8 00:00:00 GMT+0200 2000</startDate>
+    <points>100</points>
+  </course>
+  <course>
+    <id>20628</id>
+    <title>Late Imperial China</title>
+    <instructor>Fix</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Mon Feb 15 00:00:00 GMT+0100 1999</startDate>
+    <points>69</points>
+  </course>
+  <course>
+    <id>10643</id>
+    <title>Modern China</title>
+    <instructor>Fix</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Tue Jan 16 00:00:00 GMT+0100 2007</startDate>
+    <points>4</points>
+  </course>
+  <course>
+    <id>10644</id>
+    <title>Cultr and Society 19 CentAmerca</title>
+    <instructor>Dirks</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 21 00:00:00 GMT+0100 2002</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>20629</id>
+    <title>Culture and Society 20 Cent Amer</title>
+    <instructor>Dirks</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Fri Jan 8 00:00:00 GMT+0100 1999</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>10784</id>
+    <title>Introduction to Judaism</title>
+    <instructor>McCalla</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Sat Mar 22 00:00:00 GMT+0100 2008</startDate>
+    <points>70</points>
+  </course>
+  <course>
+    <id>10645</id>
+    <title>Spcl Tops: Vietnam War</title>
+    <instructor>Segel</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Mon Mar 7 00:00:00 GMT+0100 2005</startDate>
+    <points>62</points>
+  </course>
+  <course>
+    <id>10647</id>
+    <title>Subaltern Stds Historiography</title>
+    <instructor>Fix</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Mon Sep 9 00:00:00 GMT+0200 2002</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>10453</id>
+    <title>Introduction to Art History</title>
+    <instructor>Diebold</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Mon Nov 5 00:00:00 GMT+0100 2001</startDate>
+    <points>90</points>
+  </course>
+  <course>
+    <id>20630</id>
+    <title>The Family in China and Japan</title>
+    <instructor>Fix</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Tue May 18 00:00:00 GMT+0200 2004</startDate>
+    <points>32</points>
+  </course>
+  <course>
+    <id>10648</id>
+    <title>Devel of Britain 1700-1830</title>
+    <instructor>Sacks</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Tue Oct 16 00:00:00 GMT+0200 2001</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>20631</id>
+    <title>The Third Reich</title>
+    <instructor>Mueller</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Mon Aug 27 00:00:00 GMT+0200 2001</startDate>
+    <points>28</points>
+  </course>
+  <course>
+    <id>20633</id>
+    <title>The Russian Revolution</title>
+    <instructor>Smith</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 16 00:00:00 GMT+0200 2004</startDate>
+    <points>21</points>
+  </course>
+  <course>
+    <id>10649</id>
+    <title>Weimar:State,Society and Culture</title>
+    <instructor>Mueller</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Wed Mar 8 00:00:00 GMT+0100 2000</startDate>
+    <points>82</points>
+  </course>
+  <course>
+    <id>10653</id>
+    <title>Old Regime France 1600-1750</title>
+    <instructor>Breen</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Tue May 27 00:00:00 GMT+0200 2003</startDate>
+    <points>70</points>
+  </course>
+  <course>
+    <id>20640</id>
+    <title>The French Enlightenment</title>
+    <instructor>Breen</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 8 00:00:00 GMT+0100 2002</startDate>
+    <points>9</points>
+  </course>
+  <course>
+    <id>20641</id>
+    <title>Civil War and Reconstruction</title>
+    <instructor>Iaccarino</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Fri Aug 24 00:00:00 GMT+0200 2007</startDate>
+    <points>38</points>
+  </course>
+  <course>
+    <id>20635</id>
+    <title>Gender and History</title>
+    <instructor>Dirks</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Wed May 21 00:00:00 GMT+0200 2008</startDate>
+    <points>49</points>
+  </course>
+  <course>
+    <id>10650</id>
+    <title>American Slavery</title>
+    <instructor>Iaccarino</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Sun Aug 19 00:00:00 GMT+0200 2007</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>20637</id>
+    <title>Mexico: Indepdence toRevolutn</title>
+    <instructor>Garrett</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 5 00:00:00 GMT+0200 2002</startDate>
+    <points>40</points>
+  </course>
+  <course>
+    <id>10651</id>
+    <title>Mexico and the Spanish Conquest</title>
+    <instructor>Garrett</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Sat Aug 4 00:00:00 GMT+0200 2001</startDate>
+    <points>44</points>
+  </course>
+  <course>
+    <id>10652</id>
+    <title>Jun Sem: Depression Era U.S.</title>
+    <instructor>Dirks</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Sat Sep 20 00:00:00 GMT+0200 2008</startDate>
+    <points>52</points>
+  </course>
+  <course>
+    <id>20639</id>
+    <title>Sem: Comty, Auth, Cult15-1700</title>
+    <instructor>Sacks</instructor>
+    <subj>HIST</subj>
+    <units>1.0</units>
+    <startDate>Sat Aug 23 00:00:00 GMT+0200 2008</startDate>
+    <points>73</points>
+  </course>
+  <course>
+    <id>10072</id>
+    <title>West Humanities: Greece and Rome</title>
+    <instructor>King</instructor>
+    <subj>HUM</subj>
+    <units>0.0</units>
+    <startDate>Mon Aug 26 00:00:00 GMT+0200 2002</startDate>
+    <points>64</points>
+  </course>
+  <course>
+    <id>10460</id>
+    <title>Introductory Painting</title>
+    <instructor>Knutson</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Fri Apr 2 00:00:00 GMT+0200 2004</startDate>
+    <points>99</points>
+  </course>
+  <course>
+    <id>20467</id>
+    <title>Introductory Painting II</title>
+    <instructor>Knutson</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Sun Aug 20 00:00:00 GMT+0200 2006</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>10073</id>
+    <title>Early Modern Europe</title>
+    <instructor>Knapp</instructor>
+    <subj>HUM</subj>
+    <units>0.0</units>
+    <startDate>Tue Jun 6 00:00:00 GMT+0200 2000</startDate>
+    <points>89</points>
+  </course>
+  <course>
+    <id>10461</id>
+    <title>Sculpture</title>
+    <instructor>Ondrizek</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 23 00:00:00 GMT+0100 2000</startDate>
+    <points>11</points>
+  </course>
+  <course>
+    <id>10074</id>
+    <title>Modern Humanities</title>
+    <instructor>Mueller</instructor>
+    <subj>HUM</subj>
+    <units>0.0</units>
+    <startDate>Wed Jan 5 00:00:00 GMT+0100 2000</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>10314</id>
+    <title>Foundatns ChineseCivilization</title>
+    <instructor>Brashier</instructor>
+    <subj>HUM</subj>
+    <units>0.0</units>
+    <startDate>Wed Oct 5 00:00:00 GMT+0200 2005</startDate>
+    <points>50</points>
+  </course>
+  <course>
+    <id>20468</id>
+    <title>Sculpture II</title>
+    <instructor>Ondrizek</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Sat Oct 11 00:00:00 GMT+0200 2003</startDate>
+    <points>50</points>
+  </course>
+  <course>
+    <id>10179</id>
+    <title>First Year Latin</title>
+    <instructor/>
+    <subj>LAT</subj>
+    <units>1.0</units>
+    <startDate>Sun Oct 10 00:00:00 GMT+0200 1999</startDate>
+    <points>76</points>
+  </course>
+  <course>
+    <id>10180</id>
+    <title>Second Year Latin</title>
+    <instructor>Wolfe</instructor>
+    <subj>LAT</subj>
+    <units>1.0</units>
+    <startDate>Sat Apr 22 00:00:00 GMT+0200 2000</startDate>
+    <points>76</points>
+  </course>
+  <course>
+    <id>10486</id>
+    <title>Advanced Latin</title>
+    <instructor>Englert</instructor>
+    <subj>LAT</subj>
+    <units>1.0</units>
+    <startDate>Thu Jun 19 00:00:00 GMT+0200 2003</startDate>
+    <points>37</points>
+  </course>
+  <course>
+    <id>10481</id>
+    <title>General Linguistics</title>
+    <instructor>Haviland</instructor>
+    <subj>LING</subj>
+    <units>1.0</units>
+    <startDate>Thu Oct 19 00:00:00 GMT+0200 2006</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>10484</id>
+    <title>Language and Society</title>
+    <instructor>Haviland</instructor>
+    <subj>LING</subj>
+    <units>1.0</units>
+    <startDate>Mon Oct 18 00:00:00 GMT+0200 2004</startDate>
+    <points>3</points>
+  </course>
+  <course>
+    <id>10483</id>
+    <title>Introductory Syntax</title>
+    <instructor>Haviland</instructor>
+    <subj>LING</subj>
+    <units>1.0</units>
+    <startDate>Sat Jan 6 00:00:00 GMT+0100 2001</startDate>
+    <points>72</points>
+  </course>
+  <course>
+    <id>20481</id>
+    <title>Morphosyntactic Typology</title>
+    <instructor>Haviland</instructor>
+    <subj>LING</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 12 00:00:00 GMT+0200 2002</startDate>
+    <points>90</points>
+  </course>
+  <course>
+    <id>10454</id>
+    <title>Early Medieval Art</title>
+    <instructor>Diebold</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Mon Jan 29 00:00:00 GMT+0100 2007</startDate>
+    <points>6</points>
+  </course>
+  <course>
+    <id>10747</id>
+    <title>Psycholinguistics</title>
+    <instructor>Canseco-Gonzale</instructor>
+    <subj>LING</subj>
+    <units>1.0</units>
+    <startDate>Sat Aug 13 00:00:00 GMT+0200 2005</startDate>
+    <points>76</points>
+  </course>
+  <course>
+    <id>20652</id>
+    <title>Psych of Language Acquisition</title>
+    <instructor>Canseco-Gonzale</instructor>
+    <subj>LING</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 23 00:00:00 GMT+0100 2000</startDate>
+    <points>35</points>
+  </course>
+  <course>
+    <id>10538</id>
+    <title>Russian Short Fiction</title>
+    <instructor>Lencek</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Fri Apr 16 00:00:00 GMT+0200 1999</startDate>
+    <points>61</points>
+  </course>
+  <course>
+    <id>10757</id>
+    <title>20-Cent Chin Fiction, 1919-49</title>
+    <instructor>Wu</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 1 00:00:00 GMT+0200 2008</startDate>
+    <points>15</points>
+  </course>
+  <course>
+    <id>20682</id>
+    <title>Medieval Manuscript Illumin</title>
+    <instructor>Diebold</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 25 00:00:00 GMT+0100 2005</startDate>
+    <points>55</points>
+  </course>
+  <course>
+    <id>20665</id>
+    <title>20-Century Chinese Poetry</title>
+    <instructor>Wu</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Sat Oct 25 00:00:00 GMT+0200 2003</startDate>
+    <points>99</points>
+  </course>
+  <course>
+    <id>20531</id>
+    <title>Russian Lit:Chekhov toPresent</title>
+    <instructor>Bershtein</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Wed Jul 31 00:00:00 GMT+0200 2002</startDate>
+    <points>47</points>
+  </course>
+  <course>
+    <id>10540</id>
+    <title>The Myth of St. Petersburg</title>
+    <instructor>Bershtein</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 1 00:00:00 GMT+0200 2008</startDate>
+    <points>58</points>
+  </course>
+  <course>
+    <id>10500</id>
+    <title>German Thought Postmod Era</title>
+    <instructor>Irmscher</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Wed Mar 22 00:00:00 GMT+0100 2000</startDate>
+    <points>2</points>
+  </course>
+  <course>
+    <id>20536</id>
+    <title>Russian Lit:Gogol and Dostoevsky</title>
+    <instructor>Lencek</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Mon Jul 10 00:00:00 GMT+0200 2006</startDate>
+    <points>78</points>
+  </course>
+  <course>
+    <id>20533</id>
+    <title>Russ Decadent/SymbolistCultur</title>
+    <instructor>Bershtein</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Thu Jul 15 00:00:00 GMT+0200 2004</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>10455</id>
+    <title>Divine Comedy and Visualizations</title>
+    <instructor>David</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Tue Mar 23 00:00:00 GMT+0100 1999</startDate>
+    <points>99</points>
+  </course>
+  <course>
+    <id>10542</id>
+    <title>20th C Russian CriticalTheory</title>
+    <instructor>Lencek</instructor>
+    <subj>LIT</subj>
+    <units>1.0</units>
+    <startDate>Thu Jun 21 00:00:00 GMT+0200 2001</startDate>
+    <points>30</points>
+  </course>
+  <course>
+    <id>10430</id>
+    <title>Calculus I</title>
+    <instructor>Mayer</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Sun Jul 2 00:00:00 GMT+0200 2000</startDate>
+    <points>91</points>
+  </course>
+  <course>
+    <id>20444</id>
+    <title>Calculus II</title>
+    <instructor>Mayer</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 10 00:00:00 GMT+0200 2008</startDate>
+    <points>39</points>
+  </course>
+  <course>
+    <id>20680</id>
+    <title>Art and Politics in France</title>
+    <instructor>Hendrickson</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Thu Jan 2 00:00:00 GMT+0100 2003</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10436</id>
+    <title>Introduction to Computing</title>
+    <instructor>Fix</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Mon Apr 3 00:00:00 GMT+0200 2000</startDate>
+    <points>9</points>
+  </course>
+  <course>
+    <id>20450</id>
+    <title>Introduction to Combinatorics</title>
+    <instructor>Shurman</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Mon Jul 29 00:00:00 GMT+0200 2002</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>20681</id>
+    <title>Pol Hist of Art Between Wars</title>
+    <instructor>van Dyke</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Sun Jan 24 00:00:00 GMT+0100 1999</startDate>
+    <points>66</points>
+  </course>
+  <course>
+    <id>10438</id>
+    <title>Intro to Probability and Statist</title>
+    <instructor>Jones</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Sun Oct 16 00:00:00 GMT+0200 2005</startDate>
+    <points>31</points>
+  </course>
+  <course>
+    <id>10443</id>
+    <title>Introduction to Analysis I</title>
+    <instructor>Perkinson</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 4 00:00:00 GMT+0200 2006</startDate>
+    <points>88</points>
+  </course>
+  <course>
+    <id>20451</id>
+    <title>Introduction to Analysis II</title>
+    <instructor>Wieting</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Sun Feb 24 00:00:00 GMT+0100 2008</startDate>
+    <points>52</points>
+  </course>
+  <course>
+    <id>10777</id>
+    <title>Art and Pol in Weimar Republic</title>
+    <instructor>van Dyke</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Sun Apr 1 00:00:00 GMT+0200 2007</startDate>
+    <points>48</points>
+  </course>
+  <course>
+    <id>20453</id>
+    <title>Complex Analysis</title>
+    <instructor>Perkinson</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Thu Apr 29 00:00:00 GMT+0200 1999</startDate>
+    <points>6</points>
+  </course>
+  <course>
+    <id>10446</id>
+    <title>Advanced Calculus</title>
+    <instructor>Shurman</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Thu Jan 10 00:00:00 GMT+0100 2008</startDate>
+    <points>30</points>
+  </course>
+  <course>
+    <id>10447</id>
+    <title>Linear Algebra</title>
+    <instructor>Mayer</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Fri Sep 1 00:00:00 GMT+0200 2000</startDate>
+    <points>59</points>
+  </course>
+  <course>
+    <id>20455</id>
+    <title>Abstract Algebra</title>
+    <instructor>Bernhard</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Fri May 16 00:00:00 GMT+0200 2003</startDate>
+    <points>73</points>
+  </course>
+  <course>
+    <id>20456</id>
+    <title>Geometry</title>
+    <instructor>Wieting</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Mon Sep 10 00:00:00 GMT+0200 2007</startDate>
+    <points>9</points>
+  </course>
+  <course>
+    <id>10449</id>
+    <title>Combinatorics</title>
+    <instructor>Perkinson</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Thu Jan 12 00:00:00 GMT+0100 2006</startDate>
+    <points>2</points>
+  </course>
+  <course>
+    <id>20457</id>
+    <title>Data Structure and Algorithm</title>
+    <instructor>Fix</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Sat Sep 8 00:00:00 GMT+0200 2001</startDate>
+    <points>97</points>
+  </course>
+  <course>
+    <id>20643</id>
+    <title>Computer Graphics</title>
+    <instructor>Fix</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Mon Jun 23 00:00:00 GMT+0200 2008</startDate>
+    <points>76</points>
+  </course>
+  <course>
+    <id>20679</id>
+    <title>New West in Amer Photography</title>
+    <instructor>Fillin-Yeh</instructor>
+    <subj>ART</subj>
+    <units>0.5</units>
+    <startDate>Sun Jan 27 00:00:00 GMT+0100 2008</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>10450</id>
+    <title>Probability</title>
+    <instructor>Wieting</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Sun Aug 5 00:00:00 GMT+0200 2001</startDate>
+    <points>46</points>
+  </course>
+  <course>
+    <id>20458</id>
+    <title>Topics in Advanced AnalysisII</title>
+    <instructor>Mayer</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Sat Jan 14 00:00:00 GMT+0100 2006</startDate>
+    <points>69</points>
+  </course>
+  <course>
+    <id>20459</id>
+    <title>Elemetary Number Theory</title>
+    <instructor>Shurman</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Mon Mar 26 00:00:00 GMT+0200 2001</startDate>
+    <points>30</points>
+  </course>
+  <course>
+    <id>10451</id>
+    <title>Algebraic Structures</title>
+    <instructor>Bernhard</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Thu Apr 26 00:00:00 GMT+0200 2007</startDate>
+    <points>89</points>
+  </course>
+  <course>
+    <id>10452</id>
+    <title>Topics In Computer Theory</title>
+    <instructor>Fix</instructor>
+    <subj>MATH</subj>
+    <units>1.0</units>
+    <startDate>Thu Nov 9 00:00:00 GMT+0100 2006</startDate>
+    <points>99</points>
+  </course>
+  <course>
+    <id>10329</id>
+    <title>Chamber Orchestra</title>
+    <instructor>Schiff</instructor>
+    <subj>MUS</subj>
+    <units>0.5</units>
+    <startDate>Sun Feb 29 00:00:00 GMT+0100 2004</startDate>
+    <points>7</points>
+  </course>
+  <course>
+    <id>10321</id>
+    <title>Chorus</title>
+    <instructor>Hancock</instructor>
+    <subj>MUS</subj>
+    <units>0.5</units>
+    <startDate>Tue Jun 14 00:00:00 GMT+0200 2005</startDate>
+    <points>48</points>
+  </course>
+  <course>
+    <id>10322</id>
+    <title>Collegium Musicum</title>
+    <instructor>Hancock</instructor>
+    <subj>MUS</subj>
+    <units>0.5</units>
+    <startDate>Sat Jun 23 00:00:00 GMT+0200 2001</startDate>
+    <points>67</points>
+  </course>
+  <course>
+    <id>10462</id>
+    <title>Intermed Paint,Draw,PrintmakI</title>
+    <instructor>Knutson</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Thu May 6 00:00:00 GMT+0200 2004</startDate>
+    <points>7</points>
+  </course>
+  <course>
+    <id>10464</id>
+    <title>Intro to Music Listening</title>
+    <instructor>Falk</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Tue Jun 26 00:00:00 GMT+0200 2007</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>10465</id>
+    <title>Music Theory I</title>
+    <instructor>Hancock</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Tue Jul 6 00:00:00 GMT+0200 1999</startDate>
+    <points>77</points>
+  </course>
+  <course>
+    <id>20471</id>
+    <title>Theory II:IntermediateHarmony</title>
+    <instructor>Hancock</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Sat Apr 12 00:00:00 GMT+0200 2003</startDate>
+    <points>93</points>
+  </course>
+  <course>
+    <id>20469</id>
+    <title>IntermedPaint,Draw,PrintmakII</title>
+    <instructor>Knutson</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Tue Jan 7 00:00:00 GMT+0100 2003</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>20474</id>
+    <title>Survey of Western Music</title>
+    <instructor>Falk</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Fri Apr 29 00:00:00 GMT+0200 2005</startDate>
+    <points>8</points>
+  </course>
+  <course>
+    <id>10470</id>
+    <title>Theory III: BaroqueCounterpnt</title>
+    <instructor>Schiff</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Thu Sep 13 00:00:00 GMT+0200 2001</startDate>
+    <points>80</points>
+  </course>
+  <course>
+    <id>20648</id>
+    <title>The String Quartet</title>
+    <instructor>Falk</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Thu Oct 4 00:00:00 GMT+0200 2001</startDate>
+    <points>26</points>
+  </course>
+  <course>
+    <id>10471</id>
+    <title>Representation in Music</title>
+    <instructor>Falk</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Mon Jun 5 00:00:00 GMT+0200 2000</startDate>
+    <points>33</points>
+  </course>
+  <course>
+    <id>20475</id>
+    <title>Romantic Music</title>
+    <instructor>Hancock</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Mon Mar 20 00:00:00 GMT+0100 2000</startDate>
+    <points>13</points>
+  </course>
+  <course>
+    <id>20476</id>
+    <title>Jazz</title>
+    <instructor>Schiff</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Mon Jun 2 00:00:00 GMT+0200 2008</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>10472</id>
+    <title>Modernism in Music</title>
+    <instructor>Schiff</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Fri Aug 2 00:00:00 GMT+0200 2002</startDate>
+    <points>78</points>
+  </course>
+  <course>
+    <id>10473</id>
+    <title>Medieval and RenaissanceMusic</title>
+    <instructor>Falk</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Thu May 6 00:00:00 GMT+0200 2004</startDate>
+    <points>60</points>
+  </course>
+  <course>
+    <id>20478</id>
+    <title>Advanced Analysis</title>
+    <instructor>Schiff</instructor>
+    <subj>MUS</subj>
+    <units>1.0</units>
+    <startDate>Sun Feb 23 00:00:00 GMT+0100 2003</startDate>
+    <points>20</points>
+  </course>
+  <course>
+    <id>10463</id>
+    <title>Intermed Sculp and Multimedia I</title>
+    <instructor>Ondrizek</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Thu Jul 20 00:00:00 GMT+0200 2006</startDate>
+    <points>72</points>
+  </course>
+  <course>
+    <id>10656</id>
+    <title>Aerobics</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Mon Jul 5 00:00:00 GMT+0200 2004</startDate>
+    <points>93</points>
+  </course>
+  <course>
+    <id>10658</id>
+    <title>African Dance</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri May 17 00:00:00 GMT+0200 2002</startDate>
+    <points>48</points>
+  </course>
+  <course>
+    <id>10661</id>
+    <title>Aikido</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun Jul 11 00:00:00 GMT+0200 1999</startDate>
+    <points>22</points>
+  </course>
+  <course>
+    <id>10659</id>
+    <title>Archery</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat May 4 00:00:00 GMT+0200 2002</startDate>
+    <points>56</points>
+  </course>
+  <course>
+    <id>10664</id>
+    <title>Bellydance</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Mon Sep 25 00:00:00 GMT+0200 2000</startDate>
+    <points>48</points>
+  </course>
+  <course>
+    <id>10662</id>
+    <title>Ballroom Dance-Beginning</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Nov 14 00:00:00 GMT+0100 2000</startDate>
+    <points>55</points>
+  </course>
+  <course>
+    <id>10663</id>
+    <title>Ballroom Dance-Intermediate</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Sep 22 00:00:00 GMT+0200 2007</startDate>
+    <points>32</points>
+  </course>
+  <course>
+    <id>10665</id>
+    <title>Canoeing</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Wed Aug 16 00:00:00 GMT+0200 2006</startDate>
+    <points>58</points>
+  </course>
+  <course>
+    <id>20470</id>
+    <title>Intermed Sculp and MultimediaII</title>
+    <instructor>Ondrizek</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Sun Jun 18 00:00:00 GMT+0200 2006</startDate>
+    <points>82</points>
+  </course>
+  <course>
+    <id>10680</id>
+    <title>Self Defense</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Aug 29 00:00:00 GMT+0200 2000</startDate>
+    <points>18</points>
+  </course>
+  <course>
+    <id>10666</id>
+    <title>Fencing</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri Apr 13 00:00:00 GMT+0200 2007</startDate>
+    <points>28</points>
+  </course>
+  <course>
+    <id>10667</id>
+    <title>Folkdance</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Mon May 17 00:00:00 GMT+0200 2004</startDate>
+    <points>37</points>
+  </course>
+  <course>
+    <id>10668</id>
+    <title>Golf</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Feb 8 00:00:00 GMT+0100 2003</startDate>
+    <points>57</points>
+  </course>
+  <course>
+    <id>10698</id>
+    <title>Yoga-Hatha</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun May 4 00:00:00 GMT+0200 2003</startDate>
+    <points>32</points>
+  </course>
+  <course>
+    <id>10671</id>
+    <title>Judo</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri Nov 1 00:00:00 GMT+0100 2002</startDate>
+    <points>24</points>
+  </course>
+  <course>
+    <id>10670</id>
+    <title>Juggling</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Mar 21 00:00:00 GMT+0100 2000</startDate>
+    <points>49</points>
+  </course>
+  <course>
+    <id>10669</id>
+    <title>Jitterbug</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri Apr 28 00:00:00 GMT+0200 2006</startDate>
+    <points>76</points>
+  </course>
+  <course>
+    <id>10697</id>
+    <title>Yoga-Kundilini</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Aug 28 00:00:00 GMT+0200 2004</startDate>
+    <points>49</points>
+  </course>
+  <course>
+    <id>10672</id>
+    <title>Kayaking-Intermediate</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun Mar 13 00:00:00 GMT+0100 2005</startDate>
+    <points>100</points>
+  </course>
+  <course>
+    <id>20464</id>
+    <title>Leonardo, Raphael,Michelangel</title>
+    <instructor>David</instructor>
+    <subj>ART</subj>
+    <units>1.0</units>
+    <startDate>Tue Oct 22 00:00:00 GMT+0200 2002</startDate>
+    <points>49</points>
+  </course>
+  <course>
+    <id>10673</id>
+    <title>Lifeguard Training</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri Jan 25 00:00:00 GMT+0100 2008</startDate>
+    <points>47</points>
+  </course>
+  <course>
+    <id>10699</id>
+    <title>Yoga-Relaxaion</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun Jul 8 00:00:00 GMT+0200 2001</startDate>
+    <points>6</points>
+  </course>
+  <course>
+    <id>10674</id>
+    <title>Rock Climbing</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Nov 11 00:00:00 GMT+0100 2003</startDate>
+    <points>5</points>
+  </course>
+  <course>
+    <id>10675</id>
+    <title>Rugby-Men and Women</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun Sep 16 00:00:00 GMT+0200 2007</startDate>
+    <points>96</points>
+  </course>
+  <course>
+    <id>10750</id>
+    <title>Rowing-Beginning</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri Aug 22 00:00:00 GMT+0200 2008</startDate>
+    <points>32</points>
+  </course>
+  <course>
+    <id>10751</id>
+    <title>Rowing-Intermediate</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Thu Jan 6 00:00:00 GMT+0100 2000</startDate>
+    <points>84</points>
+  </course>
+  <course>
+    <id>10683</id>
+    <title>Softball</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Thu Aug 4 00:00:00 GMT+0200 2005</startDate>
+    <points>21</points>
+  </course>
+  <course>
+    <id>10684</id>
+    <title>Squash-Beginning</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Apr 22 00:00:00 GMT+0200 2000</startDate>
+    <points>3</points>
+  </course>
+  <course>
+    <id>10685</id>
+    <title>Squash-Intermediate</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Mon Sep 18 00:00:00 GMT+0200 2000</startDate>
+    <points>33</points>
+  </course>
+  <course>
+    <id>10678</id>
+    <title>Sailing</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri May 9 00:00:00 GMT+0200 2003</startDate>
+    <points>20</points>
+  </course>
+  <course>
+    <id>10594</id>
+    <title>Intro Biology Lect and Lab</title>
+    <instructor>Shampay</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Fri Jun 11 00:00:00 GMT+0200 1999</startDate>
+    <points>27</points>
+  </course>
+  <course>
+    <id>10689</id>
+    <title>Tai Chi-Beginning</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Nov 2 00:00:00 GMT+0100 1999</startDate>
+    <points>76</points>
+  </course>
+  <course>
+    <id>10690</id>
+    <title>Tai Chi-Intermediate</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun Nov 26 00:00:00 GMT+0100 2000</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>10693</id>
+    <title>Tennis-Advanced</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun Apr 21 00:00:00 GMT+0200 2002</startDate>
+    <points>15</points>
+  </course>
+  <course>
+    <id>10691</id>
+    <title>Tennis-Beginning</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Wed Sep 20 00:00:00 GMT+0200 2000</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>10692</id>
+    <title>Tennis-Intermediate</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Nov 16 00:00:00 GMT+0100 2002</startDate>
+    <points>53</points>
+  </course>
+  <course>
+    <id>10694</id>
+    <title>Ultimate Frisbee</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Wed Jan 2 00:00:00 GMT+0100 2002</startDate>
+    <points>41</points>
+  </course>
+  <course>
+    <id>10696</id>
+    <title>White Water Rafting</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Oct 2 00:00:00 GMT+0200 2004</startDate>
+    <points>75</points>
+  </course>
+  <course>
+    <id>10707</id>
+    <title>Badminton</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Jul 26 00:00:00 GMT+0200 2005</startDate>
+    <points>50</points>
+  </course>
+  <course>
+    <id>10709</id>
+    <title>Basketball-Coed</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Thu Feb 24 00:00:00 GMT+0100 2000</startDate>
+    <points>79</points>
+  </course>
+  <course>
+    <id>10706</id>
+    <title>Backcountry Navigation</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri Oct 14 00:00:00 GMT+0200 2005</startDate>
+    <points>6</points>
+  </course>
+  <course>
+    <id>10714</id>
+    <title>Bowling</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Thu May 3 00:00:00 GMT+0200 2001</startDate>
+    <points>80</points>
+  </course>
+  <course>
+    <id>10716</id>
+    <title>Folkdancing</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Wed Oct 23 00:00:00 GMT+0200 2002</startDate>
+    <points>96</points>
+  </course>
+  <course>
+    <id>10717</id>
+    <title>Hiking Around Portland</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Jul 10 00:00:00 GMT+0200 2004</startDate>
+    <points>83</points>
+  </course>
+  <course>
+    <id>10739</id>
+    <title>Yoga-Kundlini</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Fri Jun 23 00:00:00 GMT+0200 2006</startDate>
+    <points>69</points>
+  </course>
+  <course>
+    <id>10781</id>
+    <title>Modern Dance</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sat Feb 2 00:00:00 GMT+0100 2002</startDate>
+    <points>57</points>
+  </course>
+  <course>
+    <id>10741</id>
+    <title>Yoga-Relaxation</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Feb 6 00:00:00 GMT+0100 2007</startDate>
+    <points>68</points>
+  </course>
+  <course>
+    <id>10724</id>
+    <title>Raquetball-Beginning</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Sun Oct 24 00:00:00 GMT+0200 1999</startDate>
+    <points>84</points>
+  </course>
+  <course>
+    <id>10730</id>
+    <title>Squash-beginning</title>
+    <instructor>Casey</instructor>
+    <subj>PE</subj>
+    <units>0.0</units>
+    <startDate>Tue Apr 6 00:00:00 GMT+0200 2004</startDate>
+    <points>47</points>
+  </course>
+  <course>
+    <id>10421</id>
+    <title>Introduction to Philosophy</title>
+    <instructor>Hinchliff</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 4 00:00:00 GMT+0100 2004</startDate>
+    <points>61</points>
+  </course>
+  <course>
+    <id>20417</id>
+    <title>Logic</title>
+    <instructor>Taschek</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Fri Nov 8 00:00:00 GMT+0100 2002</startDate>
+    <points>22</points>
+  </course>
+  <course>
+    <id>10424</id>
+    <title>Ancient Philosophy</title>
+    <instructor>Reeve</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Wed Oct 8 00:00:00 GMT+0200 2008</startDate>
+    <points>78</points>
+  </course>
+  <course>
+    <id>20418</id>
+    <title>Post-Kantian Continental Phil</title>
+    <instructor>Peck</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Tue May 4 00:00:00 GMT+0200 1999</startDate>
+    <points>97</points>
+  </course>
+  <course>
+    <id>20419</id>
+    <title>Metaphysics</title>
+    <instructor>Hinchliff</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Wed Aug 20 00:00:00 GMT+0200 2008</startDate>
+    <points>24</points>
+  </course>
+  <course>
+    <id>10425</id>
+    <title>Epistemology</title>
+    <instructor>Taschek</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Fri Aug 22 00:00:00 GMT+0200 2003</startDate>
+    <points>58</points>
+  </course>
+  <course>
+    <id>10767</id>
+    <title>Ethics</title>
+    <instructor>Arkonovich</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 8 00:00:00 GMT+0200 2004</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>10427</id>
+    <title>Philosophy of Mind</title>
+    <instructor>Hinchliff</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Sat Apr 2 00:00:00 GMT+0200 2005</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>20421</id>
+    <title>Adv Topics:APrior,Nec,Anlytic</title>
+    <instructor>Hinchliff</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Mon Jan 18 00:00:00 GMT+0100 1999</startDate>
+    <points>55</points>
+  </course>
+  <course>
+    <id>20422</id>
+    <title>Advanced Topics:Phil of Mind</title>
+    <instructor>Reeve</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Sat Mar 2 00:00:00 GMT+0100 2002</startDate>
+    <points>50</points>
+  </course>
+  <course>
+    <id>20423</id>
+    <title>Advanced Topics: Epistemology</title>
+    <instructor>Taschek</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Sat Jun 21 00:00:00 GMT+0200 2003</startDate>
+    <points>16</points>
+  </course>
+  <course>
+    <id>20670</id>
+    <title>Adv Topics: Ethics</title>
+    <instructor>Latham</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Sun Jul 1 00:00:00 GMT+0200 2001</startDate>
+    <points>21</points>
+  </course>
+  <course>
+    <id>10428</id>
+    <title>Major Figures:Existentialists</title>
+    <instructor>Peck</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Tue Mar 16 00:00:00 GMT+0100 1999</startDate>
+    <points>2</points>
+  </course>
+  <course>
+    <id>10429</id>
+    <title>Major Figures: Davidson</title>
+    <instructor>Taschek</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Sun May 29 00:00:00 GMT+0200 2005</startDate>
+    <points>58</points>
+  </course>
+  <course>
+    <id>20424</id>
+    <title>Major Figures: Hume</title>
+    <instructor>Arkonovich</instructor>
+    <subj>PHIL</subj>
+    <units>1.0</units>
+    <startDate>Sat Jul 28 00:00:00 GMT+0200 2001</startDate>
+    <points>90</points>
+  </course>
+  <course>
+    <id>10075</id>
+    <title>General Physics I</title>
+    <instructor>Bonfim</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 17 00:00:00 GMT+0100 2000</startDate>
+    <points>11</points>
+  </course>
+  <course>
+    <id>20402</id>
+    <title>Introduction to Physics</title>
+    <instructor>Reynolds</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Sun Sep 24 00:00:00 GMT+0200 2000</startDate>
+    <points>11</points>
+  </course>
+  <course>
+    <id>10076</id>
+    <title>General Physics II</title>
+    <instructor>Griffiths</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Mon Aug 14 00:00:00 GMT+0200 2006</startDate>
+    <points>13</points>
+  </course>
+  <course>
+    <id>10399</id>
+    <title>Classical Mechanics I</title>
+    <instructor>Reynolds</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Thu Apr 7 00:00:00 GMT+0200 2005</startDate>
+    <points>90</points>
+  </course>
+  <course>
+    <id>10401</id>
+    <title>Electrodynamics I</title>
+    <instructor>James</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Fri Jun 18 00:00:00 GMT+0200 2004</startDate>
+    <points>97</points>
+  </course>
+  <course>
+    <id>20392</id>
+    <title>Electrodynamics II</title>
+    <instructor>James</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Wed Oct 25 00:00:00 GMT+0200 2006</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>10702</id>
+    <title>Optics</title>
+    <instructor>Mitchell</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Wed Jan 11 00:00:00 GMT+0100 2006</startDate>
+    <points>15</points>
+  </course>
+  <course>
+    <id>10402</id>
+    <title>Advanced Laboratory I</title>
+    <instructor>Essick</instructor>
+    <subj>PHYS</subj>
+    <units>0.5</units>
+    <startDate>Sat Nov 6 00:00:00 GMT+0100 1999</startDate>
+    <points>18</points>
+  </course>
+  <course>
+    <id>20394</id>
+    <title>Advanced Laboratory II</title>
+    <instructor>Mitchell</instructor>
+    <subj>PHYS</subj>
+    <units>0.5</units>
+    <startDate>Tue Apr 3 00:00:00 GMT+0200 2001</startDate>
+    <points>8</points>
+  </course>
+  <course>
+    <id>20397</id>
+    <title>Quantum Mechanics I</title>
+    <instructor>Wheeler</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Sun Nov 14 00:00:00 GMT+0100 1999</startDate>
+    <points>36</points>
+  </course>
+  <course>
+    <id>10407</id>
+    <title>Thermal Physics</title>
+    <instructor>Reynolds</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Sat Jun 10 00:00:00 GMT+0200 2006</startDate>
+    <points>29</points>
+  </course>
+  <course>
+    <id>20398</id>
+    <title>Solid State Physics</title>
+    <instructor>Essick</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Sat Jul 2 00:00:00 GMT+0200 2005</startDate>
+    <points>5</points>
+  </course>
+  <course>
+    <id>20399</id>
+    <title>Elementary Particles</title>
+    <instructor>Griffiths</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Tue Jul 29 00:00:00 GMT+0200 2003</startDate>
+    <points>59</points>
+  </course>
+  <course>
+    <id>10409</id>
+    <title>Scientific Computation</title>
+    <instructor>Crandall</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Wed Jan 26 00:00:00 GMT+0100 2000</startDate>
+    <points>74</points>
+  </course>
+  <course>
+    <id>10411</id>
+    <title>Classical Mechanics II</title>
+    <instructor>Wheeler</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 8 00:00:00 GMT+0100 2002</startDate>
+    <points>99</points>
+  </course>
+  <course>
+    <id>20400</id>
+    <title>Quantum Mechanics II</title>
+    <instructor>Wheeler</instructor>
+    <subj>PHYS</subj>
+    <units>1.0</units>
+    <startDate>Fri Sep 5 00:00:00 GMT+0200 2003</startDate>
+    <points>0</points>
+  </course>
+  <course>
+    <id>10633</id>
+    <title>Intro Political Analysis</title>
+    <instructor>Rejali</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Sun Jan 24 00:00:00 GMT+0100 1999</startDate>
+    <points>62</points>
+  </course>
+  <course>
+    <id>20613</id>
+    <title>Empirical Political Theory</title>
+    <instructor>Gronke</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Sat Mar 18 00:00:00 GMT+0100 2000</startDate>
+    <points>8</points>
+  </course>
+  <course>
+    <id>20612</id>
+    <title>Classical PoliticalPhilosophy</title>
+    <instructor>Mandell</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 26 00:00:00 GMT+0200 2005</startDate>
+    <points>77</points>
+  </course>
+  <course>
+    <id>10635</id>
+    <title>Modern Political Philosophy</title>
+    <instructor>Steinberger</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Sun Sep 11 00:00:00 GMT+0200 2005</startDate>
+    <points>89</points>
+  </course>
+  <course>
+    <id>20611</id>
+    <title>Comparative Politics</title>
+    <instructor>Andreas</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Mon Apr 7 00:00:00 GMT+0200 2008</startDate>
+    <points>62</points>
+  </course>
+  <course>
+    <id>10521</id>
+    <title>Research Methods</title>
+    <instructor>Tudor</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Sat Mar 25 00:00:00 GMT+0100 2000</startDate>
+    <points>68</points>
+  </course>
+  <course>
+    <id>10636</id>
+    <title>Democratic Theory</title>
+    <instructor>Mandell</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Sat Jan 15 00:00:00 GMT+0100 2005</startDate>
+    <points>30</points>
+  </course>
+  <course>
+    <id>10637</id>
+    <title>Politics of Globalization</title>
+    <instructor>Andreas</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Tue Oct 17 00:00:00 GMT+0200 2000</startDate>
+    <points>44</points>
+  </course>
+  <course>
+    <id>10769</id>
+    <title>Environmental Politics</title>
+    <instructor>Teske</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Sun Feb 7 00:00:00 GMT+0100 1999</startDate>
+    <points>12</points>
+  </course>
+  <course>
+    <id>20675</id>
+    <title>Pol of Democratic Participatn</title>
+    <instructor>Teske</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Wed Mar 27 00:00:00 GMT+0100 2002</startDate>
+    <points>96</points>
+  </course>
+  <course>
+    <id>20618</id>
+    <title>States and Illegal Markets</title>
+    <instructor>Andreas</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Mon Feb 28 00:00:00 GMT+0100 2005</startDate>
+    <points>32</points>
+  </course>
+  <course>
+    <id>10634</id>
+    <title>Approaches to Violence</title>
+    <instructor>Rejali</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Thu Jul 19 00:00:00 GMT+0200 2001</startDate>
+    <points>80</points>
+  </course>
+  <course>
+    <id>20622</id>
+    <title>Pol of Border and US-Mexico</title>
+    <instructor>Andreas</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Wed Mar 5 00:00:00 GMT+0100 2003</startDate>
+    <points>25</points>
+  </course>
+  <course>
+    <id>20609</id>
+    <title>Con. Law and JudicialPolitics</title>
+    <instructor>Kapsch</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Fri Jan 11 00:00:00 GMT+0100 2002</startDate>
+    <points>97</points>
+  </course>
+  <course>
+    <id>20614</id>
+    <title>Systems of Justice</title>
+    <instructor>Kapsch</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Tue Jun 1 00:00:00 GMT+0200 1999</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>10638</id>
+    <title>International CriminalJustice</title>
+    <instructor>Rejali</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 1 00:00:00 GMT+0100 2001</startDate>
+    <points>25</points>
+  </course>
+  <course>
+    <id>20615</id>
+    <title>Machiavelli</title>
+    <instructor>Rejali</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Sat Jun 23 00:00:00 GMT+0200 2001</startDate>
+    <points>17</points>
+  </course>
+  <course>
+    <id>20616</id>
+    <title>Political Philosophies ofWork</title>
+    <instructor>Rejali</instructor>
+    <subj>POL</subj>
+    <units>1.0</units>
+    <startDate>Fri Jan 4 00:00:00 GMT+0100 2008</startDate>
+    <points>58</points>
+  </course>
+  <course>
+    <id>10398</id>
+    <title>Intro to Psychology I</title>
+    <instructor>Reisberg</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sun Feb 8 00:00:00 GMT+0100 2004</startDate>
+    <points>80</points>
+  </course>
+  <course>
+    <id>10400</id>
+    <title>Intro to Psychology</title>
+    <instructor>Reisberg</instructor>
+    <subj>PSY</subj>
+    <units>0.0</units>
+    <startDate>Mon Jan 31 00:00:00 GMT+0100 2005</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>20401</id>
+    <title>Intro to Psychology II</title>
+    <instructor>Neuringer</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 17 00:00:00 GMT+0100 2000</startDate>
+    <points>23</points>
+  </course>
+  <course>
+    <id>10413</id>
+    <title>Social Psychology</title>
+    <instructor>Oleson</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sat May 12 00:00:00 GMT+0200 2001</startDate>
+    <points>23</points>
+  </course>
+  <course>
+    <id>10753</id>
+    <title>Health Psychology</title>
+    <instructor>Herman</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Tue Nov 20 00:00:00 GMT+0100 2001</startDate>
+    <points>8</points>
+  </course>
+  <course>
+    <id>20662</id>
+    <title>Social Development</title>
+    <instructor>Bulkley</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Thu Jan 22 00:00:00 GMT+0100 2004</startDate>
+    <points>66</points>
+  </course>
+  <course>
+    <id>20663</id>
+    <title>Community Psychology</title>
+    <instructor>Herman</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Fri Jul 4 00:00:00 GMT+0200 2008</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10414</id>
+    <title>Psychobiology</title>
+    <instructor>Dickinson</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sun Jan 3 00:00:00 GMT+0100 1999</startDate>
+    <points>4</points>
+  </course>
+  <course>
+    <id>20428</id>
+    <title>Neuropsychology</title>
+    <instructor>Canseco-Gonzale</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Tue Nov 19 00:00:00 GMT+0100 2002</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>20429</id>
+    <title>Psychopharmacology</title>
+    <instructor>Dickinson</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Mon Sep 8 00:00:00 GMT+0200 2008</startDate>
+    <points>97</points>
+  </course>
+  <course>
+    <id>10416</id>
+    <title>Thinking</title>
+    <instructor>Reisberg</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 5 00:00:00 GMT+0200 2007</startDate>
+    <points>98</points>
+  </course>
+  <course>
+    <id>20432</id>
+    <title>Research Design and DataAnalysi</title>
+    <instructor>Oleson</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sun Aug 24 00:00:00 GMT+0200 2008</startDate>
+    <points>28</points>
+  </course>
+  <course>
+    <id>10754</id>
+    <title>Psychopathology</title>
+    <instructor>Herman</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sun Mar 5 00:00:00 GMT+0100 2006</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10417</id>
+    <title>Human Development</title>
+    <instructor>Bulkley</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Mon Jun 4 00:00:00 GMT+0200 2007</startDate>
+    <points>92</points>
+  </course>
+  <course>
+    <id>20435</id>
+    <title>Cognitive Processes</title>
+    <instructor>Reisberg</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 6 00:00:00 GMT+0100 2008</startDate>
+    <points>82</points>
+  </course>
+  <course>
+    <id>20438</id>
+    <title>Learning</title>
+    <instructor>Neuringer</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Fri Jun 16 00:00:00 GMT+0200 2006</startDate>
+    <points>7</points>
+  </course>
+  <course>
+    <id>20425</id>
+    <title>Music Perception</title>
+    <instructor>Reisberg</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sun Nov 28 00:00:00 GMT+0100 1999</startDate>
+    <points>19</points>
+  </course>
+  <course>
+    <id>10755</id>
+    <title>Cross-Cultural Psychology</title>
+    <instructor>Bulkley</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 6 00:00:00 GMT+0200 2004</startDate>
+    <points>35</points>
+  </course>
+  <course>
+    <id>10420</id>
+    <title>Junior Seminar</title>
+    <instructor>Rhodes</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sat Sep 25 00:00:00 GMT+0200 1999</startDate>
+    <points>42</points>
+  </course>
+  <course>
+    <id>20441</id>
+    <title>Psychobiology Research</title>
+    <instructor>Dickinson</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Tue Nov 21 00:00:00 GMT+0100 2006</startDate>
+    <points>38</points>
+  </course>
+  <course>
+    <id>20664</id>
+    <title>Clinical Psychology</title>
+    <instructor>Herman</instructor>
+    <subj>PSY</subj>
+    <units>1.0</units>
+    <startDate>Sun Apr 17 00:00:00 GMT+0200 2005</startDate>
+    <points>48</points>
+  </course>
+  <course>
+    <id>20521</id>
+    <title>Intro to Religions of Asia</title>
+    <instructor>Brashier</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Mon Jun 21 00:00:00 GMT+0200 1999</startDate>
+    <points>25</points>
+  </course>
+  <course>
+    <id>10523</id>
+    <title>Introduction to Islam</title>
+    <instructor>Feener</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Fri Feb 16 00:00:00 GMT+0100 2001</startDate>
+    <points>32</points>
+  </course>
+  <course>
+    <id>10524</id>
+    <title>Theory and Method in RelStudies</title>
+    <instructor>Brashier</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Sat Jul 19 00:00:00 GMT+0200 2003</startDate>
+    <points>23</points>
+  </course>
+  <course>
+    <id>10785</id>
+    <title>Theory and Methods in RelStudies</title>
+    <instructor>Brashier</instructor>
+    <subj>REL</subj>
+    <units>0.0</units>
+    <startDate>Sun Aug 19 00:00:00 GMT+0200 2001</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>20522</id>
+    <title>History of Religion</title>
+    <instructor>McCalla</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Thu May 11 00:00:00 GMT+0200 2006</startDate>
+    <points>42</points>
+  </course>
+  <course>
+    <id>10525</id>
+    <title>Chinese Mahayana Texts</title>
+    <instructor>Brashier</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 18 00:00:00 GMT+0100 2004</startDate>
+    <points>58</points>
+  </course>
+  <course>
+    <id>20523</id>
+    <title>Missing Persons World ofIslam</title>
+    <instructor>Feener</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 20 00:00:00 GMT+0100 2008</startDate>
+    <points>51</points>
+  </course>
+  <course>
+    <id>10760</id>
+    <title>Romanticism and Religion</title>
+    <instructor>McCalla</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Mon Aug 14 00:00:00 GMT+0200 2000</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10527</id>
+    <title>Spcl Top Ancient Christianity</title>
+    <instructor>Foat</instructor>
+    <subj>REL</subj>
+    <units>1.0</units>
+    <startDate>Wed Oct 1 00:00:00 GMT+0200 2008</startDate>
+    <points>9</points>
+  </course>
+  <course>
+    <id>10197</id>
+    <title>First Year Russian</title>
+    <instructor/>
+    <subj>RUSS</subj>
+    <units>1.0</units>
+    <startDate>Sat Apr 3 00:00:00 GMT+0200 1999</startDate>
+    <points>24</points>
+  </course>
+  <course>
+    <id>10198</id>
+    <title>Second Year Russian</title>
+    <instructor/>
+    <subj>RUSS</subj>
+    <units>1.0</units>
+    <startDate>Wed Jun 22 00:00:00 GMT+0200 2005</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>20593</id>
+    <title>Vascular Plant Diversity</title>
+    <instructor>Raubeson</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Sat Nov 11 00:00:00 GMT+0100 2000</startDate>
+    <points>89</points>
+  </course>
+  <course>
+    <id>10536</id>
+    <title>Advanced Russian</title>
+    <instructor>Bershtein</instructor>
+    <subj>RUSS</subj>
+    <units>1.0</units>
+    <startDate>Thu Oct 14 00:00:00 GMT+0200 1999</startDate>
+    <points>3</points>
+  </course>
+  <course>
+    <id>20534</id>
+    <title>20th Century Russian Poetry</title>
+    <instructor>Lencek</instructor>
+    <subj>RUSS</subj>
+    <units>1.0</units>
+    <startDate>Tue May 2 00:00:00 GMT+0200 2006</startDate>
+    <points>21</points>
+  </course>
+  <course>
+    <id>20530</id>
+    <title>Mod Russ Lit:Chekov toPresent</title>
+    <instructor>Bershtein</instructor>
+    <subj>RUSS</subj>
+    <units>1.0</units>
+    <startDate>Mon Feb 12 00:00:00 GMT+0100 2007</startDate>
+    <points>49</points>
+  </course>
+  <course>
+    <id>20535</id>
+    <title>Russ Lit: Gogol and Dostoevsky</title>
+    <instructor>Lencek</instructor>
+    <subj>RUSS</subj>
+    <units>1.0</units>
+    <startDate>Sat Apr 5 00:00:00 GMT+0200 2003</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>10474</id>
+    <title>Introduction to Sociology</title>
+    <instructor>Tudor</instructor>
+    <subj>SOC</subj>
+    <units>0.0</units>
+    <startDate>Wed Oct 9 00:00:00 GMT+0200 2002</startDate>
+    <points>71</points>
+  </course>
+  <course>
+    <id>20684</id>
+    <title>Race and Ethnicity</title>
+    <instructor>Schneiberg</instructor>
+    <subj>SOC</subj>
+    <units>1.0</units>
+    <startDate>Tue Jul 24 00:00:00 GMT+0200 2007</startDate>
+    <points>43</points>
+  </course>
+  <course>
+    <id>20653</id>
+    <title>Sociology of Religion</title>
+    <instructor>Tudor</instructor>
+    <subj>SOC</subj>
+    <units>1.0</units>
+    <startDate>Fri Oct 4 00:00:00 GMT+0200 2002</startDate>
+    <points>87</points>
+  </course>
+  <course>
+    <id>20646</id>
+    <title>American Capitalism</title>
+    <instructor>Schneiberg</instructor>
+    <subj>SOC</subj>
+    <units>1.0</units>
+    <startDate>Tue Oct 5 00:00:00 GMT+0200 1999</startDate>
+    <points>33</points>
+  </course>
+  <course>
+    <id>10522</id>
+    <title>Sociology of Culture</title>
+    <instructor>Hrycak</instructor>
+    <subj>SOC</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 9 00:00:00 GMT+0100 2000</startDate>
+    <points>52</points>
+  </course>
+  <course>
+    <id>10199</id>
+    <title>First Year Spanish</title>
+    <instructor>Drumm</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Sat Oct 28 00:00:00 GMT+0200 2006</startDate>
+    <points>72</points>
+  </course>
+  <course>
+    <id>10202</id>
+    <title>Second Year Spanish</title>
+    <instructor>Fischer</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Wed Nov 1 00:00:00 GMT+0100 2006</startDate>
+    <points>38</points>
+  </course>
+  <course>
+    <id>10491</id>
+    <title>Theory and Practice HispanicLit</title>
+    <instructor>Moret</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Mon May 1 00:00:00 GMT+0200 2000</startDate>
+    <points>89</points>
+  </course>
+  <course>
+    <id>20492</id>
+    <title>Spanish Short Story</title>
+    <instructor>Alonso</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Tue Jul 11 00:00:00 GMT+0200 2006</startDate>
+    <points>83</points>
+  </course>
+  <course>
+    <id>10610</id>
+    <title>Animal Behav. and Behav.Ecology</title>
+    <instructor>Yezerinac</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Thu May 27 00:00:00 GMT+0200 2004</startDate>
+    <points>10</points>
+  </course>
+  <course>
+    <id>10494</id>
+    <title>Modern Peninsular Drama</title>
+    <instructor>Drumm</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Wed Jul 18 00:00:00 GMT+0200 2001</startDate>
+    <points>63</points>
+  </course>
+  <course>
+    <id>20491</id>
+    <title>Mod Spanish American Drama</title>
+    <instructor>Larisch</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Mon Feb 23 00:00:00 GMT+0100 2004</startDate>
+    <points>40</points>
+  </course>
+  <course>
+    <id>20683</id>
+    <title>Penin Lit: Dogma and Disbelief</title>
+    <instructor>Garcia-Bryce</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Sun Jul 8 00:00:00 GMT+0200 2001</startDate>
+    <points>98</points>
+  </course>
+  <course>
+    <id>10493</id>
+    <title>Spl Tops Span Amer Lit:Borges</title>
+    <instructor>Fischer</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 10 00:00:00 GMT+0200 2001</startDate>
+    <points>78</points>
+  </course>
+  <course>
+    <id>10770</id>
+    <title>The City in Span Amer Lit</title>
+    <instructor>Schulz</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Sun Jun 3 00:00:00 GMT+0200 2001</startDate>
+    <points>33</points>
+  </course>
+  <course>
+    <id>20490</id>
+    <title>Lit Responses to Dictatorship</title>
+    <instructor>Fischer</instructor>
+    <subj>SPAN</subj>
+    <units>1.0</units>
+    <startDate>Tue Apr 27 00:00:00 GMT+0200 2004</startDate>
+    <points>4</points>
+  </course>
+  <course>
+    <id>10528</id>
+    <title>Introduction to Theatre</title>
+    <instructor>Worley</instructor>
+    <subj>THEA</subj>
+    <units>1.0</units>
+    <startDate>Sun Jun 20 00:00:00 GMT+0200 1999</startDate>
+    <points>88</points>
+  </course>
+  <course>
+    <id>10530</id>
+    <title>Masks and Make-up Design</title>
+    <instructor>Carr</instructor>
+    <subj>THEA</subj>
+    <units>0.5</units>
+    <startDate>Fri Jan 8 00:00:00 GMT+0100 1999</startDate>
+    <points>95</points>
+  </course>
+  <course>
+    <id>10531</id>
+    <title>Design for the Theatre: Sets</title>
+    <instructor>Muller</instructor>
+    <subj>THEA</subj>
+    <units>0.5</units>
+    <startDate>Sat Apr 7 00:00:00 GMT+0200 2001</startDate>
+    <points>55</points>
+  </course>
+  <course>
+    <id>20525</id>
+    <title>Costume History and Design</title>
+    <instructor>Carr</instructor>
+    <subj>THEA</subj>
+    <units>0.5</units>
+    <startDate>Thu Apr 29 00:00:00 GMT+0200 1999</startDate>
+    <points>98</points>
+  </course>
+  <course>
+    <id>20526</id>
+    <title>Design for Theatre: Lights</title>
+    <instructor>Muller</instructor>
+    <subj>THEA</subj>
+    <units>0.5</units>
+    <startDate>Thu Oct 4 00:00:00 GMT+0200 2007</startDate>
+    <points>21</points>
+  </course>
+  <course>
+    <id>10532</id>
+    <title>Acting Laboratory</title>
+    <instructor>Worley</instructor>
+    <subj>THEA</subj>
+    <units>0.5</units>
+    <startDate>Sun Jun 25 00:00:00 GMT+0200 2000</startDate>
+    <points>67</points>
+  </course>
+  <course>
+    <id>10533</id>
+    <title>Plays and Playhouses</title>
+    <instructor>Clinton</instructor>
+    <subj>THEA</subj>
+    <units>1.0</units>
+    <startDate>Sun Jun 17 00:00:00 GMT+0200 2001</startDate>
+    <points>79</points>
+  </course>
+  <course>
+    <id>20527</id>
+    <title>Intercultr ExperimentsTheatre</title>
+    <instructor>Worley</instructor>
+    <subj>THEA</subj>
+    <units>1.0</units>
+    <startDate>Mon Nov 28 00:00:00 GMT+0100 2005</startDate>
+    <points>52</points>
+  </course>
+  <course>
+    <id>10534</id>
+    <title>Playwriting</title>
+    <instructor>Clinton</instructor>
+    <subj>THEA</subj>
+    <units>1.0</units>
+    <startDate>Sat Aug 21 00:00:00 GMT+0200 2004</startDate>
+    <points>28</points>
+  </course>
+  <course>
+    <id>20528</id>
+    <title>Techniques of Acting</title>
+    <instructor>Worley</instructor>
+    <subj>THEA</subj>
+    <units>1.0</units>
+    <startDate>Sat May 11 00:00:00 GMT+0200 2002</startDate>
+    <points>38</points>
+  </course>
+  <course>
+    <id>10535</id>
+    <title>Directing I</title>
+    <instructor>Clinton</instructor>
+    <subj>THEA</subj>
+    <units>1.0</units>
+    <startDate>Thu Feb 8 00:00:00 GMT+0100 2001</startDate>
+    <points>82</points>
+  </course>
+  <course>
+    <id>20529</id>
+    <title>Special Problems in Directing</title>
+    <instructor>Clinton</instructor>
+    <subj>THEA</subj>
+    <units>1.0</units>
+    <startDate>Fri Mar 24 00:00:00 GMT+0100 2000</startDate>
+    <points>8</points>
+  </course>
+  <course>
+    <id>10744</id>
+    <title>Topics in FrenchEnlightenment</title>
+    <instructor>Kierstead</instructor>
+    <subj>HIST</subj>
+    <units>0.5</units>
+    <startDate>Sun Sep 12 00:00:00 GMT+0200 1999</startDate>
+    <points>14</points>
+  </course>
+  <course>
+    <id>10745</id>
+    <title>Greek Humanities</title>
+    <instructor>King</instructor>
+    <subj>HUM</subj>
+    <units>0.5</units>
+    <startDate>Fri Mar 31 00:00:00 GMT+0200 2006</startDate>
+    <points>3</points>
+  </course>
+  <course>
+    <id>20649</id>
+    <title>ColonizingAfrica:Conrad and Congo</title>
+    <instructor>Lowe</instructor>
+    <subj>LBST</subj>
+    <units>0.5</units>
+    <startDate>Wed Apr 19 00:00:00 GMT+0200 2000</startDate>
+    <points>74</points>
+  </course>
+  <course>
+    <id>20650</id>
+    <title>Don Quixote and Narr. Theory</title>
+    <instructor>Drumm</instructor>
+    <subj>LIT</subj>
+    <units>0.5</units>
+    <startDate>Wed Mar 24 00:00:00 GMT+0100 1999</startDate>
+    <points>27</points>
+  </course>
+  <course>
+    <id>10746</id>
+    <title>Ornamental Art</title>
+    <instructor>Wieting</instructor>
+    <subj>MATH</subj>
+    <units>0.5</units>
+    <startDate>Mon Dec 31 00:00:00 GMT+0100 2007</startDate>
+    <points>37</points>
+  </course>
+  <course>
+    <id>20651</id>
+    <title>Experiments Intercult Theatre</title>
+    <instructor>Worley</instructor>
+    <subj>THEA</subj>
+    <units>0.5</units>
+    <startDate>Tue Aug 1 00:00:00 GMT+0200 2000</startDate>
+    <points>88</points>
+  </course>
+  <course>
+    <id>10613</id>
+    <title>Developmental Biology</title>
+    <instructor>Black</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Sun May 9 00:00:00 GMT+0200 2004</startDate>
+    <points>67</points>
+  </course>
+  <course>
+    <id>20597</id>
+    <title>Genetics and Gene Regulation</title>
+    <instructor>Shampay</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Thu Jul 17 00:00:00 GMT+0200 2003</startDate>
+    <points>51</points>
+  </course>
+  <course>
+    <id>10771</id>
+    <title>Microbiology</title>
+    <instructor>Mellies</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Mon Nov 29 00:00:00 GMT+0100 1999</startDate>
+    <points>62</points>
+  </course>
+  <course>
+    <id>10485</id>
+    <title>Language in Society</title>
+    <instructor>Haviland</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Sun May 20 00:00:00 GMT+0200 2001</startDate>
+    <points>65</points>
+  </course>
+  <course>
+    <id>10616</id>
+    <title>Genetics and MolecularBiology</title>
+    <instructor>Russell</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Thu Jan 17 00:00:00 GMT+0100 2002</startDate>
+    <points>34</points>
+  </course>
+  <course>
+    <id>20606</id>
+    <title>Population Bio:Ecolgy and Evolutn</title>
+    <instructor>Kaplan</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Tue Nov 1 00:00:00 GMT+0100 2005</startDate>
+    <points>37</points>
+  </course>
+  <course>
+    <id>10768</id>
+    <title>Ethnic and Nation France and NAfr</title>
+    <instructor>Silverstein</instructor>
+    <subj>ANTH</subj>
+    <units>1.0</units>
+    <startDate>Sun Apr 20 00:00:00 GMT+0200 2008</startDate>
+    <points>64</points>
+  </course>
+  <course>
+    <id>20617</id>
+    <title>Cellular Biology</title>
+    <instructor>McClellan</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Tue Nov 23 00:00:00 GMT+0100 1999</startDate>
+    <points>99</points>
+  </course>
+  <course>
+    <id>10620</id>
+    <title>Animal Physiology</title>
+    <instructor>Arch</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Thu Mar 29 00:00:00 GMT+0200 2007</startDate>
+    <points>42</points>
+  </course>
+  <course>
+    <id>10776</id>
+    <title>Evolutionary Biology</title>
+    <instructor>Raubeson</instructor>
+    <subj>BIOL</subj>
+    <units>1.0</units>
+    <startDate>Sun Sep 3 00:00:00 GMT+0200 2000</startDate>
+    <points>59</points>
+  </course>
+</coursers>

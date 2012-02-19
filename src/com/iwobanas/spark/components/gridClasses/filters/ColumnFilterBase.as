@@ -61,13 +61,13 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 		}
 		
+		[Bindable("filterValueChange")]
 		/**
 		 * Flag indicating wether this filter is active 
 		 * i.e may eliminate some items from MDataGrid data provider.
 		 * 
 		 * This getter should be overridden by concrete column filters.
 		 */
-		[Bindable("filterValueChange")]
 		public /* abstract */ function get isActive():Boolean
 		{
 			return false;

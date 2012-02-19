@@ -22,6 +22,7 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
 	
 	import mx.containers.Box;
+	import mx.skins.halo.HaloBorder;
 
 	/**
 	 * The FilterEditorBase class provides default implementation 
@@ -39,6 +40,16 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 		public function FilterEditorBase()
 		{
 			super();
+			
+			//FIXME Remove background workaround
+			setStyle("borderSkin", mx.skins.halo.HaloBorder);
+			setStyle("borderStyle", "solid");
+			setStyle("backgroundAlpha", 1);
+			setStyle("backgroundColor", 0xFFFFFF);
+			setStyle("paddingLeft", 10);
+			setStyle("paddingRight", 10);
+			setStyle("paddingTop", 10);
+			setStyle("paddingBottom", 10);
 		}
 		
 		/**

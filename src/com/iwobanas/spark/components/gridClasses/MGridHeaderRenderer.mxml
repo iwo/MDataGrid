@@ -471,7 +471,7 @@ and <code>sortIndicator</code> properties.</p>
 				   popUpPosition="below" popUpWidthMatchesAnchorWidth="false">
 	</s:PopUpAnchor>
 	
-	<s:HGroup left="7" right="7" top="5" bottom="5" gap="2" verticalAlign="middle">
+	<s:HGroup left="7" right="7" top="2" bottom="2" gap="2" verticalAlign="middle">
 		
 		<!-- layer 7: Container for labelDisplay:TextBase  -->
 		<!--- Defines the size and location of the labelDisplay visual element. 

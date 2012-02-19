@@ -490,8 +490,6 @@ and <code>sortIndicator</code> properties.</p>
 		
 		<s:ToggleButton id="filterButton"
 				  skinClass="com.iwobanas.spark.components.gridClasses.FilterButtonSkin"
-				  click="filterButton_clickHandler(event)"
-				  mouseDown="filterButton_mouseDownHandler(event)"
 				  />
 		
 		<!-- layer 8: Container for sortIndicator:IVisualElement  -->

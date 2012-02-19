@@ -2,6 +2,7 @@ package com.iwobanas.spark.components.gridClasses
 {
 	import com.iwobanas.spark.components.gridClasses.filterEditors.FilterEditorBase;
 	import com.iwobanas.spark.components.gridClasses.filterEditors.IColumnFilterEditor;
+	import com.iwobanas.spark.components.gridClasses.filters.ColumnFilterBase;
 	
 	import flash.display.DisplayObject;
 	import flash.events.Event;
@@ -56,13 +57,12 @@ package com.iwobanas.spark.components.gridClasses
 		
 		protected function getFilterEditor(create:Boolean = false):IColumnFilterEditor
 		{
-			var column:MDataGridColumn = this.column as MDataGridColumn;
-			if (column)
+			if (filterColumn)
 			{
-				if (create && !column.filterEditorInstance)
-					column.filterEditorInstance = column.filterEditor.newInstance();
+				if (create && !filterColumn.filterEditorInstance)
+					filterColumn.filterEditorInstance = filterColumn.filterEditor.newInstance();
 				
-				return column.filterEditorInstance;
+				return filterColumn.filterEditorInstance;
 			}
 			return null;
 		}
@@ -102,28 +102,77 @@ package com.iwobanas.spark.components.gridClasses
 				_filterButton.addEventListener(MouseEvent.CLICK, filterButton_clickHandler);
 			}
 			
+			updateFilterButtonState();
+			
 			dispatchEvent(new Event("filterButtonChange"));
 		}
 		
+		protected var filterColumn:MDataGridColumn;
+		
+		/**
+		 *  @private
+		 */
+		override public function prepare(hasBeenRecycled:Boolean):void
+		{
+			super.prepare(hasBeenRecycled);
+			
+			if (filterColumn != column)
+			{
+				if (filterColumn)
+					filterColumn.removeEventListener(MDataGridEvent.FILTER_CHANGE, filterColumn_filterChangeHandler);
+				
+				filterColumn = column as MDataGridColumn;
+				
+				if (filterColumn)
+					filterColumn.addEventListener(MDataGridEvent.FILTER_CHANGE, filterColumn_filterChangeHandler);
+			}
+		}
+		
+		protected var filter:ColumnFilterBase;
+		
+		protected function filterColumn_filterChangeHandler(event:Event):void
+		{
+			if (filterColumn && filterColumn.filter == filter)
+				return;
+			
+			if (filter)
+				filter.removeEventListener(MDataGridEvent.FILTER_VALUE_CHANGE, filter_filterValueChange);
+			
+			filter = filterColumn ? filterColumn.filter : null;
+			
+			if (filter)
+				filter.addEventListener(MDataGridEvent.FILTER_VALUE_CHANGE, filter_filterValueChange);
+		}
+		
+		protected function filter_filterValueChange(event:Event):void
+		{
+			updateFilterButtonState();
+		}
+		
+		protected function updateFilterButtonState():void
+		{
+			if (!filterButton)
+				return;
+			
+			filterButton.selected = filter && filter.isActive;
+		}
 		
 		protected function openFilterEditor():void
 		{
-			var column:MDataGridColumn = this.column as MDataGridColumn;
-			if (!column)
+			if (!filterColumn)
 				return;
 			
 			popUpAnchor.popUp = getFilterEditor(true);
 			dropDownController.dropDown = popUpAnchor.popUp as DisplayObject;
 			popUpAnchor.displayPopUp = true;
-			column.filterEditorInstance.startEdit(column);
+			filterColumn.filterEditorInstance.startEdit(filterColumn);
 		}
 		
 		protected function closeFilterEditor():void
 		{
-			var column:MDataGridColumn = this.column as MDataGridColumn;
-			if (!column)
+			if (!filterColumn)
 				return;
-			column.filterEditorInstance.endEdit();
+			filterColumn.filterEditorInstance.endEdit();
 			popUpAnchor.displayPopUp = false;
 		}
 		

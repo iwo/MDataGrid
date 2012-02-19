@@ -65,14 +65,8 @@
     
 	<s:BitmapImage id="icon"
 				   verticalCenter="0" horizontalCenter="0"
-				   source="assets/icons/filter.png"
-				   excludeFrom="selectedStates"
-				   />
-	
-	<s:BitmapImage id="iconSelected"
-				   verticalCenter="0" horizontalCenter="0"
-				   source="assets/icons/filter_active.png"
-				   includeIn="selectedStates"
+				   source="@Embed('assets/icons/filter.png')"
+				   source.selectedStates="@Embed('assets/icons/filter_active.png')"
 				   />
     
 </s:SparkButtonSkin>

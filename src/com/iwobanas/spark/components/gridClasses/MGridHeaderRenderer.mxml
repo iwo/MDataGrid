@@ -37,6 +37,7 @@ and <code>sortIndicator</code> properties.</p>
 	xmlns:supportClasses="spark.components.supportClasses.*"
 	xmlns:filterEditors="com.iwobanas.spark.components.gridClasses.filterEditors.*"
 	xmlns:gridClasses="com.iwobanas.spark.components.gridClasses.*"
+	xmlns:components="com.iwobanas.spark.components.*"
 	>
 	
 	<fx:Declarations>
@@ -488,7 +489,7 @@ and <code>sortIndicator</code> properties.</p>
 		-->
 		<s:Group id="labelDisplayGroup" width="100%" />
 		
-		<s:ToggleButton id="filterButton"
+		<components:ProgrammaticToggleButton id="filterButton"
 				  skinClass="com.iwobanas.spark.components.gridClasses.FilterButtonSkin"
 				  />
 		

@@ -29,13 +29,15 @@ and <code>sortIndicator</code> properties.</p>
 @productversion Flex 4.5
 -->
 
-<s:GridItemRenderer minWidth="21" minHeight="21"
-					xmlns:fx="http://ns.adobe.com/mxml/2009" 
-					xmlns:s="library://ns.adobe.com/flex/spark" 
-					xmlns:mx="library://ns.adobe.com/flex/mx"
-					xmlns:supportClasses="spark.components.supportClasses.*"
-					xmlns:filterEditors="com.iwobanas.spark.components.gridClasses.filterEditors.*"
-					>
+<gridClasses:MGridHeaderRendererBase
+	minWidth="21" minHeight="21"
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:s="library://ns.adobe.com/flex/spark" 
+	xmlns:mx="library://ns.adobe.com/flex/mx"
+	xmlns:supportClasses="spark.components.supportClasses.*"
+	xmlns:filterEditors="com.iwobanas.spark.components.gridClasses.filterEditors.*"
+	xmlns:gridClasses="com.iwobanas.spark.components.gridClasses.*"
+	>
 	
 	<fx:Declarations>
 		<!--- The default value of the <code>sortIndicator</code> property.
@@ -353,63 +355,14 @@ and <code>sortIndicator</code> properties.</p>
 					invalidateDisplayList();
 				}
 			}
-			
-			
-			// FILTERING
-			
-			protected function openFilterEditor():void
-			{
-				var column:MDataGridColumn = this.column as MDataGridColumn;
-				if (!column)
-					return;
-				
-				if (!column.filterEditorInstance)
-					column.filterEditorInstance = column.filterEditor.newInstance();
-				
-				popUpAnchor.popUp = column.filterEditorInstance;
-				popUpAnchor.displayPopUp = true;
-				column.filterEditorInstance.startEdit(column);
-			}
-			
-			protected function closeFilterEditor():void
-			{
-				var column:MDataGridColumn = this.column as MDataGridColumn;
-				if (!column)
-					return;
-				column.filterEditorInstance.endEdit();
-				popUpAnchor.displayPopUp = false;
-			}
-			
-			protected function filterButton_clickHandler(event:MouseEvent):void
-			{
-				event.stopPropagation();
-				
-				if (popUpAnchor)
-				{
-					if (popUpAnchor.displayPopUp)
-					{
-						closeFilterEditor();
-					}
-					else
-					{
-						openFilterEditor();
-					}
-				}
-			}
-			
-			protected function filterButton_mouseDownHandler(event:MouseEvent):void
-			{
-				event.stopPropagation();
-			}
-			
 		]]>
 	</fx:Script>
 	
-	<s:states>
+	<gridClasses:states>
 		<s:State name="normal" />
 		<s:State name="hovered" />
 		<s:State name="down" />
-	</s:states>      
+	</gridClasses:states>      
 	
 	<!-- layer 1: shadow -->
 	<!--- @private -->
@@ -559,4 +512,4 @@ and <code>sortIndicator</code> properties.</p>
 		
 	</s:HGroup>
 	
-</s:GridItemRenderer>
+</gridClasses:MGridHeaderRendererBase>

@@ -2,9 +2,9 @@ package com.iwobanas.spark.components
 {
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
 	
-	import mx.collections.ArrayCollection;
 	import mx.collections.ICollectionView;
 	import mx.collections.IList;
+	import mx.collections.ISort;
 	import mx.collections.ListCollectionView;
 	
 	import spark.components.DataGrid;
@@ -28,6 +28,8 @@ package com.iwobanas.spark.components
 		
 		override public function set dataProvider(value:IList):void
 		{
+			var sort:ISort = collection ? collection.sort : null;
+			
 			collection = value as ICollectionView;
 			if (!collection)
 			{
@@ -40,6 +42,12 @@ package com.iwobanas.spark.components
 			else
 			{
 				_unfilteredCollection = new ListCollectionView(value);
+			}
+			
+			if (collection && sort)
+			{
+				collection.sort = sort;
+				collection.refresh();
 			}
 			
 			super.dataProvider = value;

@@ -11,17 +11,35 @@
 		<![CDATA[
 			import mx.collections.ICollectionView;
 			import mx.collections.XMLListCollection;
+			import mx.collections.ArrayCollection;
+			import mx.collections.ICollectionView;
+			
+			[Bindable]
+			public var dp1:ArrayCollection;
+			
+			[Bindable]
+			public var dp2:ArrayCollection;
+			
 		]]>
 	</fx:Script>
-	
+		
 	<fx:Declarations>		
+		<mx:HTTPService id="ds1" url="assets/dataset1.xml" resultFormat="object" makeObjectsBindable="true" result="{dp1 = event.result.courses.course}" />
+		<mx:HTTPService id="ds2" url="assets/dataset2.xml" resultFormat="object" makeObjectsBindable="true" result="{dp2 = event.result.courses.course}"/>
 		<fx:XML id="reed" source="assets/reed2.xml" />
 	</fx:Declarations>
 	
 
 	<mx:Panel title="DateGrid example" width="95%" height="95%" >
 		
-		<components:MDataGrid id="dataGrid" dataProvider="{new XMLListCollection(reed.course)}"
+		<mx:HBox width="100%" paddingTop="10" paddingLeft="10" paddingRight="10">
+			<mx:Button label="Data Provider 1" click="{dataGrid.dataProvider = dp1}" />
+			<mx:Button label="Data Provider 2" click="{dataGrid.dataProvider = dp2}" />
+			<mx:Button label="Reset all filters" click="{/* dataGrid.resetAllFilters() */}" />
+		</mx:HBox>
+		
+		<components:MDataGrid id="dataGrid" dataProvider="{dp1}"
+							  creationComplete="{ds1.send();ds2.send()}"
 			width="100%" height="100%" verticalScrollPolicy="on" horizontalScrollPolicy="on">
 			<components:columns>
 				<s:ArrayList>

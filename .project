@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Examples4</name>
+	<name>ReusableFx4.6</name>
 	<comment></comment>
 	<projects>
-		<project>ReusableFx</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -13,7 +12,7 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.adobe.flexbuilder.project.flexnature</nature>
+		<nature>com.adobe.flexbuilder.project.flexlibnature</nature>
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 	</natures>
 </projectDescription>

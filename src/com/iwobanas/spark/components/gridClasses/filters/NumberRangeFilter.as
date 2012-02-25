@@ -178,6 +178,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		protected var maxActive:Boolean = false;
 		
+		[Bindable("filterValueChange")]
 		/**
 		 * Flag indicating wether this filter is active 
 		 * i.e may eliminate some items from MDataGrid data provider.

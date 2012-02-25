@@ -72,6 +72,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		[Bindable]
 		public var regExp:RegExp;
 		
+		[Bindable("filterValueChange")]
 		/**
 		 * Flag indicating wether this filter is active 
 		 * i.e may eliminate some items from MDataGrid data provider.

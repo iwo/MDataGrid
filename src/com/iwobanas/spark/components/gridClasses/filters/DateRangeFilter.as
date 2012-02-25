@@ -113,7 +113,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			var min:Date = new Date(10000,0,1); //is there infinity date?
 			var max:Date = new Date(-10000,0,1);
-			for each (var item:Object in dataGrid.originalCollection)
+			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
 				var value:Date = itemToDate(item);
 				if (value)
@@ -184,6 +184,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		protected var maxActive:Boolean;
 		
+		[Bindable("filterValueChange")]
 		/**
 		 * Flag indicating wether this filter is active 
 		 * i.e may eliminate some items from MDataGrid data provider.

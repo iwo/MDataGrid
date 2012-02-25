@@ -68,9 +68,6 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 		{
 			this.column = column;
 			column.filterEditorInstance = this;
-			
-			//FIXME: Replace styling with skinning or remove it
-			//styleName = column.getStyle("filterEditorStyleName");
 		}
 		
 		

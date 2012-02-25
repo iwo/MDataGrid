@@ -31,6 +31,8 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 	 * 
 	 * <p>If you want to create column filter editor using box layout extend this class.
 	 * If you want to use different layout you will have to use different base class e.g. Form.</p> 
+	 * 
+	 * TODO: Refactor Filter editor classes to use Spark architecture and SkinnableComponent
 	 */
 	public class FilterEditorBase extends Box implements IColumnFilterEditor
 	{

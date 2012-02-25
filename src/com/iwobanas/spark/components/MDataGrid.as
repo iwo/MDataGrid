@@ -1,6 +1,7 @@
 package com.iwobanas.spark.components
 {
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
+	import com.iwobanas.spark.components.gridClasses.MDataGridEvent;
 	
 	import mx.collections.ICollectionView;
 	import mx.collections.IList;
@@ -10,30 +11,55 @@ package com.iwobanas.spark.components
 	import spark.components.DataGrid;
 	import spark.components.gridClasses.GridColumn;
 	
+	/**
+	 * Dispatched when the <code>originalCollection</code> property changes.
+	 * 
+	 * @eventType com.iwobanas.spark.components.gridClasses.MDataGridEvent.UNFILTERED_COLLECTION_CHANGE
+	 */
+	[Event(name="unfilteredCollectionChange",type="com.iwobanas.spark.components.gridClasses.MDataGridEvent")]
+	
+	/**
+	 * The MDataGrid class extends Spark DataGrid by adding filtering and preserving sort on data provider change.
+	 * 
+	 * @see com.iwobanas.spark.components.gridClasses.MDataGridColumn
+	 */
 	public class MDataGrid extends DataGrid
 	{
+		/**
+		 * Constructor.
+		 */
 		public function MDataGrid()
 		{
 			super();
 		}
 		
+		/**
+		 * @private
+		 * dataProvider cast to ICollectionView
+		 */
 		private var collection:ICollectionView;
 		
+		/**
+		 * @private 
+		 */
 		private var _unfilteredCollection:ICollectionView;
 		
+		[Bindable("unfilteredCollectionChange")]
+		/**
+		 * Shallow copy of dataProvider without filters applied.
+		 */
 		public function get unfilteredCollection():ICollectionView
 		{
 			return _unfilteredCollection;
 		}
 		
-		override public function set dataProvider(value:IList):void
+		/**
+		 * @private 
+		 * Update unfilteredCollection based on the current value of collection.
+		 * This function has to be called before any filters are applied to the input collection.
+		 */
+		private function updateUnfilteredCollection():void
 		{
-			if (value === dataProvider)
-				return;
-			
-			var sort:ISort = collection ? collection.sort : null;
-			
-			collection = value as ICollectionView;
 			if (!collection)
 			{
 				_unfilteredCollection = null;
@@ -44,8 +70,23 @@ package com.iwobanas.spark.components
 			}
 			else
 			{
-				_unfilteredCollection = new ListCollectionView(value);
+				_unfilteredCollection = new ListCollectionView(IList(collection));
 			}
+			dispatchEvent(new MDataGridEvent(MDataGridEvent.UNFILTERED_COLLECTION_CHANGE));
+		}
+		
+		/**
+		 * @private 
+		 */
+		override public function set dataProvider(value:IList):void
+		{
+			if (value === dataProvider)
+				return;
+			
+			var sort:ISort = collection ? collection.sort : null;
+			
+			collection = value as ICollectionView;
+			updateUnfilteredCollection();
 			
 			if (collection && sort)
 			{
@@ -108,15 +149,14 @@ package com.iwobanas.spark.components
 		protected function updateColumnFilterFunctions():void
 		{
 			var cff:Array = [];
-			//FIXME: change iteration method
-			for each (var column:GridColumn in columns.toArray())
+			for (var i:int = 0; i < columns.length; i++)
 			{
-				if (column is MDataGridColumn)
+				var column:MDataGridColumn = columns.getItemAt(i) as MDataGridColumn;
+				if (column)
 				{
-					var mc:MDataGridColumn = MDataGridColumn(column);
-					if (mc.filter && mc.filter.isActive)
+					if (column.filter && column.filter.isActive)
 					{
-						cff.push(mc.filter.filterFunction);
+						cff.push(column.filter.filterFunction);
 					}
 				}
 			}

@@ -1,0 +1,14 @@
+@namespace filterEditors "com.iwobanas.spark.components.gridClasses.filterEditors.*";
+
+filterEditors|FilterEditorBase
+{
+	border-skin:		ClassReference("mx.skins.halo.HaloBorder");
+	border-style:		solid;
+	background-alpha: 	1;
+	background-color:	white;
+	drop-shadow-enabled: true;
+	padding-bottom:		5;
+	padding-left:		5;
+	padding-right:		5;
+	padding-top:		5;
+}

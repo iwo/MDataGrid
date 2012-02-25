@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
   <includeClasses/>
-  <includeResources/>
+  <includeResources>
+    <resourceEntry destPath="assets/icons/filter.png" sourcePath="assets/icons/filter.png"/>
+    <resourceEntry destPath="assets/icons/filter_active.png" sourcePath="assets/icons/filter_active.png"/>
+    <resourceEntry destPath="defaults.css" sourcePath="defaults.css"/>
+  </includeResources>
   <namespaceManifests/>
 </flexLibProperties>

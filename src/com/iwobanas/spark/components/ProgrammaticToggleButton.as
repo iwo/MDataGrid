@@ -10,11 +10,17 @@ package com.iwobanas.spark.components
 	 */
 	public class ProgrammaticToggleButton extends ToggleButton
 	{
+		/**
+		 * Constructor.
+		 */
 		public function ProgrammaticToggleButton()
 		{
 			super();
 		}
 		
+		/**
+		 * @private
+		 */
 		override protected function buttonReleased():void
 		{
 			//don't toggle based on click

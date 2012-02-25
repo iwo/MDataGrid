@@ -52,14 +52,9 @@ package com.iwobanas.spark.components.gridClasses
 	 * 
 	 * It extends GridColumn functionality by adding filtering support.
 	 * 
-	 * FIXME: Update documentation
-	 * MDataGridColumn also changes default renderers.
-	 * Default item renderer is BoldSearchItemRenderer and 
-	 * default header renderer is DropDownFilterHeaderRenderer.
+	 * MDataGridColumn also changes default header renderer to MGridHeaderRenderer.
 	 * 
-	 * @see mx.controls.dataGridClasses.DataGridColumn
-	 * @see com.iwobanas.spark.components.gridClasses.BoldSearchItemRenderer
-	 * @see com.iwobanas.spark.components.gridClasses.DropDownFilterHeaderRenderer
+	 * @see com.iwobanas.spark.components.gridClasses.MGridHeaderRenderer
 	 */
 	public class MDataGridColumn extends GridColumn
 	{

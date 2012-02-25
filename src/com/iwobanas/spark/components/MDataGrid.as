@@ -28,6 +28,9 @@ package com.iwobanas.spark.components
 		
 		override public function set dataProvider(value:IList):void
 		{
+			if (value === dataProvider)
+				return;
+			
 			var sort:ISort = collection ? collection.sort : null;
 			
 			collection = value as ICollectionView;
@@ -51,6 +54,7 @@ package com.iwobanas.spark.components
 			}
 			
 			super.dataProvider = value;
+			invalidateColumnFilters();
 		}
 		
 		/**

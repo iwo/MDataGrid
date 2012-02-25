@@ -9,10 +9,7 @@
 	>
 	<fx:Script>
 		<![CDATA[
-			import mx.collections.ICollectionView;
-			import mx.collections.XMLListCollection;
 			import mx.collections.ArrayCollection;
-			import mx.collections.ICollectionView;
 			
 			[Bindable]
 			public var dp1:ArrayCollection;
@@ -26,7 +23,8 @@
 	<fx:Declarations>		
 		<mx:HTTPService id="ds1" url="assets/dataset1.xml" resultFormat="object" makeObjectsBindable="true" result="{dp1 = event.result.courses.course}" />
 		<mx:HTTPService id="ds2" url="assets/dataset2.xml" resultFormat="object" makeObjectsBindable="true" result="{dp2 = event.result.courses.course}"/>
-		<fx:XML id="reed" source="assets/reed2.xml" />
+		
+		<components:Grid2CSV id="grid2CSV" target="{dataGrid.grid}" />
 	</fx:Declarations>
 	
 
@@ -36,6 +34,7 @@
 			<mx:Button label="Data Provider 1" click="{dataGrid.dataProvider = dp1}" />
 			<mx:Button label="Data Provider 2" click="{dataGrid.dataProvider = dp2}" />
 			<mx:Button label="Reset all filters" click="{/* dataGrid.resetAllFilters() */}" />
+			<s:Button label="Export to CSV" click="{System.setClipboard(grid2CSV.getCSV())}" />
 		</mx:HBox>
 		
 		<components:MDataGrid id="dataGrid" dataProvider="{dp1}"

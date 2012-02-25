@@ -1,26 +1,26 @@
-package com.iwobanas.controls
+package com.iwobanas.spark.components
 {
-	import mx.collections.CursorBookmark;
-	import mx.collections.IViewCursor;
-	import mx.controls.DataGrid;
-	import mx.controls.dataGridClasses.DataGridColumn;
+	import mx.collections.IList;
+	
+	import spark.components.Grid;
+	import spark.components.gridClasses.GridColumn;
 	
 	/**
-	 * The DataGrid2CSV defines utility class to export data displayed in DataGrid to CSV format.
+	 * The DataGrid2CSV defines utility class to export data displayed in the Grid to CSV format.
 	 * 
-	 * <p>Note that DataGrid2CSV does not handle saving CSV file to filesystem or transmitting it over network,
-	 * all what DataGrid2CSV does is returning String containing data in SCV format which then may 
+	 * <p>Note that Grid2CSV does not handle saving CSV file to filesystem or transmitting it over network,
+	 * all what Grid2CSV does is returning String containing data in SCV format which then may 
 	 * be saved or transmitted by application code.</p>
 	 */
-	public class DataGrid2CSV
+	public class Grid2CSV
 	{
 		
 		[Bindable]
 		/**
-		 * Target DataGrid from which data should be exported.
-		 * This may also be subclass of DataGrid for example MDataGrid.
+		 * Target Spark Grid from which data should be exported.
+		 * If used with Spark DataGrid the DataGrid.grid skin part should be passed.
 		 */
-		public var target:DataGrid;
+		public var target:Grid;
 		
 		
 		[Bindable]
@@ -60,12 +60,11 @@ package com.iwobanas.controls
 		 */
 		public var includeHeader:Boolean = true;
 		
-		
 		/**
-		 * Get the data from DataGrid formatted as CSV.
+		 * Get the data from Grid formatted as CSV.
 		 * All parameters including <code>target</code> have to be set before call to this function.
 		 * 
-		 * @return DataGrid formatted as CSV or empty String if <code>target</code> is not set.
+		 * @return Grid formatted as CSV or empty String if <code>target</code> is not set.
 		 */
 		public function getCSV():String
 		{
@@ -93,8 +92,9 @@ package com.iwobanas.controls
 			var result:String = "";
 			var isFirstVisibleCol:Boolean = true;
 			
-			for each(var column:DataGridColumn in target.columns)
+			for (var i:int = 0; i < target.columns.length; i++)
 			{
+				var column:GridColumn = GridColumn(target.columns.getItemAt(i));
 				if (column.visible)
 				{
 					if (isFirstVisibleCol)
@@ -116,36 +116,38 @@ package com.iwobanas.controls
 		
 		/**
 		 * Get all data rows in CSV format.
-		 * This function iterates over DataGrid data provider and calls <code>getDataRow()</code>.
+		 * This function iterates over Grid data provider and calls <code>getDataRow()</code>.
 		 * 
 		 * @return all data rows in CSV format
 		 */
 		protected function getDataRows():String
 		{
 			var result:String = "";
-			var cursor:IViewCursor = target.dataProvider.createCursor();
-			cursor.seek(CursorBookmark.FIRST);
+			const dataProvider:IList = target.dataProvider;
+			const dataProviderLength:int = dataProvider.length;
 			
-			while (!cursor.afterLast)
+			for (var i:int = 0; i < dataProviderLength; i++)
 			{
-				result += getDataRow(cursor.current);
-				cursor.moveNext();
+				result += getDataRow(dataProvider.getItemAt(i));
 			}
 			return result;
 		}
 		
 		/**
-		 * Get data row in CSV format for a given DataGrid item.
+		 * Get data row in CSV format for a given Grid item.
 		 * 
 		 * @return data row in CSV format
 		 */
 		protected function getDataRow(item:Object):String
 		{
 			var result:String = "";
+			const columns:IList = target.columns;
+			const columnsLength:int = columns.length;
 			var isFirstVisibleCol:Boolean = true;
 			
-			for each(var column:DataGridColumn in target.columns)
+			for (var i:int = 0; i < columnsLength; i++)
 			{
+				var column:GridColumn = GridColumn(columns.getItemAt(i));
 				if (column.visible)
 				{
 					if (isFirstVisibleCol)
@@ -165,16 +167,16 @@ package com.iwobanas.controls
 		}
 		
 		/**
-		 * Get the String value for a given DataGrid item and column.
+		 * Get the String value for a given Grid item and column.
 		 * Depending on <code>useRawData</code> flag this may be label
 		 * created using label function or raw data converted to String.
 		 * 
-		 * @param item DataGrid item for which value should be returned
-		 * @param coulmn DataGrid column for which value should be returned
+		 * @param item Grid item for which value should be returned
+		 * @param coulmn GridColumn for which value should be returned
 		 * 
-		 * @return value for a given DataGrid item and column
+		 * @return value for a given Grid item and column
 		 */
-		protected function getFieldValue(item:Object, column:DataGridColumn):String
+		protected function getFieldValue(item:Object, column:GridColumn):String
 		{
 			var result:String = "";
 			if (useRawData && column.dataField)

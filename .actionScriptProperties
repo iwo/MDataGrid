@@ -10,6 +10,7 @@
   </compiler>
   <applications>
     <application path="DataGridExample.mxml"/>
+    <application path="DateFilterExample.mxml"/>
   </applications>
   <modules/>
   <buildCSSFiles/>

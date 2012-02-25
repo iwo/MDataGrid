@@ -64,6 +64,23 @@ package com.iwobanas.spark.components
 		protected var columnFiltersChanged:Boolean = false;
 		
 		/**
+		 * Reset all filters so that all filters become inactive.
+		 * After call to this function unfiltered data are displayed.
+		 */
+		public function resetAllFilters():void
+		{
+			for (var i:int = 0; i < columns.length; i++)
+			{
+				var column:MDataGridColumn = columns.getItemAt(i) as MDataGridColumn;
+				if (column && column.filter)
+				{
+					column.filter.resetFilter();
+				}
+			}
+			invalidateColumnFilters();
+		}
+		
+		/**
 		 * Mark datagrid so that data provider will be refreshed
 		 * (new filters values will take effect) on next call commitProperties().
 		 * 

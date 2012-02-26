@@ -59,7 +59,6 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 		public function startEdit(column:MDataGridColumn):void
 		{
 			this.column = column;
-			column.filterEditorInstance = this;
 		}
 		
 		
@@ -68,7 +67,6 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 		 */
 		public function endEdit():void
 		{
-			column.filterEditorInstance = null;
 		}
 		
 	}

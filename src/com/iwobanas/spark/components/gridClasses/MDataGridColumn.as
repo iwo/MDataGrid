@@ -107,12 +107,5 @@ package com.iwobanas.spark.components.gridClasses
 		 */
 		protected var _filter:ColumnFilterBase;
 		
-		/**
-		 * @private
-		 * Filter editor instance currently editing filter.
-		 * Only one filter editor instance should edit filter at a time.
-		 */
-		public var filterEditorInstance:IColumnFilterEditor;
-		
 	}
 }

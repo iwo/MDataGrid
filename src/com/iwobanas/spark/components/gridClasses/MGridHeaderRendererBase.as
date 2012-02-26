@@ -8,6 +8,8 @@ package com.iwobanas.spark.components.gridClasses
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	
+	import mx.core.IFactory;
+	
 	import spark.components.PopUpAnchor;
 	import spark.components.ToggleButton;
 	import spark.components.gridClasses.GridItemRenderer;
@@ -55,14 +57,20 @@ package com.iwobanas.spark.components.gridClasses
 			_dropDownController.dropDown = getFilterEditor() as DisplayObject;    
 		}
 		
+		protected var filterEditorInstance:IColumnFilterEditor;
+		
+		protected var filterEditorFactory:IFactory;
+		
 		protected function getFilterEditor(create:Boolean = false):IColumnFilterEditor
 		{
 			if (filterColumn)
 			{
-				if (create && !filterColumn.filterEditorInstance)
-					filterColumn.filterEditorInstance = filterColumn.filterEditor.newInstance();
-				
-				return filterColumn.filterEditorInstance;
+				if (create && (!filterEditorInstance || !filterColumn.filterEditor != filterEditorFactory))
+				{
+					filterEditorFactory = filterColumn.filterEditor;
+					filterEditorInstance = filterEditorFactory.newInstance();
+				}
+				return filterEditorInstance;
 			}
 			return null;
 		}
@@ -165,14 +173,14 @@ package com.iwobanas.spark.components.gridClasses
 			popUpAnchor.popUp = getFilterEditor(true);
 			dropDownController.dropDown = popUpAnchor.popUp as DisplayObject;
 			popUpAnchor.displayPopUp = true;
-			filterColumn.filterEditorInstance.startEdit(filterColumn);
+			filterEditorInstance.startEdit(filterColumn);
 		}
 		
 		protected function closeFilterEditor():void
 		{
 			if (!filterColumn)
 				return;
-			filterColumn.filterEditorInstance.endEdit();
+			filterEditorInstance.endEdit();
 			popUpAnchor.displayPopUp = false;
 		}
 		

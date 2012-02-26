@@ -45,13 +45,18 @@ Contributor(s):
 		]]>
 	</fx:Script>
 	
-	<!-- TODO: adjust rounding to data range -->
-	<mx:Label text="From {Math.round(filter.minimum)}" />
-	<mx:Label text="To {Math.round(filter.maximum)}" />
+	<layout>
+		<s:VerticalLayout paddingLeft="5" paddingRight="5" paddingTop="5" paddingBottom="10" gap="0" />
+	</layout>
 	
+	<!-- TODO: adjust rounding to data range -->
+	<s:Label text="From {Math.round(filter.minimum)} to {Math.round(filter.maximum)}" />
+	
+	<!-- MX Slider is required as Spark supports only single thumb -->
 	<mx:HSlider id="rangeSlider" thumbCount="2"
 		 minimum="{filter.dataMinimum}" maximum="{filter.dataMaximum}"
 		 values="{[filter.minimum, filter.maximum]}"
-		 change="{filter.minimum = rangeSlider.values[0]; filter.maximum = rangeSlider.values[1]}" />
+		 change="{filter.minimum = rangeSlider.values[0]; filter.maximum = rangeSlider.values[1]}"
+		 />
 		
 </FilterEditorBase>

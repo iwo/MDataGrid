@@ -45,8 +45,8 @@ Contributor(s):
 		]]>
 	</fx:Script>
 	
-	<mx:Label text="Value contains:" toolTip="Show only rows which contains given text in this column." />
-	<mx:TextInput id="wildcardInput" 
+	<s:Label text="Value contains:" toolTip="Show only rows which contains given text in this column." />
+	<s:TextInput id="wildcardInput" 
 		width="100%"
 		toolTip="You can use wildcards like * or ? to match any sequence of characters or single character."
 		text="{filter.wildcard}"

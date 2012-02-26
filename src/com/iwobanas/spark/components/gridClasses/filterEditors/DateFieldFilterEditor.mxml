@@ -25,21 +25,21 @@
 			
 		]]>
 	</fx:Script>
-	<mx:Label text="From" />
+	<s:Label text="From" />
 	<mx:DateField id="minChooser" 
 		selectedDate="{filter.minimum}"
 		yearNavigationEnabled="true" 
 		dropdownFactory="com.iwobanas.spark.components.DateChooserMouseDownWorkaround"
 		change="{filter.minimum = (minChooser.selectedDate ? minChooser.selectedDate : filter.dataMinimum)}" />
 	
-	<mx:Label text="To" />
+	<s:Label text="To" />
 	<mx:DateField id="maxChooser" 
 		selectedDate="{filter.maximum}" 
 		yearNavigationEnabled="true"
 		dropdownFactory="com.iwobanas.spark.components.DateChooserMouseDownWorkaround"
 		change="{filter.maximum = (maxChooser.selectedDate ? maxChooser.selectedDate : filter.dataMaximum)}"  />
 	
-	<mx:LinkButton label="Reset" width="100%" 
+	<s:Button label="Reset" width="100%" 
 		click="{filter.minimum = filter.dataMinimum; filter.maximum = filter.dataMaximum}"
 		enabled="{filter.isActive}" />
 </FilterEditorBase>

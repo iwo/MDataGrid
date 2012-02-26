@@ -69,16 +69,16 @@ Contributor(s):
 		]]>
 	</fx:Script>
 	
-	<mx:Label text="From" />
-	<mx:TextInput id="minimumInput" 
+	<s:Label text="From" />
+	<s:TextInput id="minimumInput" 
 		width="100%"
 		restrict="0123456789."
 		text="{filter.minimum}"
 		creationComplete="{minimumInput.setFocus()}"
 		change="minimumChangeHandler(event)" />
 	
-	<mx:Label text="To" />
-	<mx:TextInput id="maximumInput" 
+	<s:Label text="To" />
+	<s:TextInput id="maximumInput" 
 		width="100%"
 		text="{filter.maximum}"
 		restrict="0123456789."

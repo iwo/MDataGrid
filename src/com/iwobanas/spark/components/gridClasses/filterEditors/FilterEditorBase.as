@@ -23,18 +23,18 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 	
 	import mx.containers.Box;
 	import mx.skins.halo.HaloBorder;
+	
+	import spark.components.SkinnableContainer;
+	import spark.components.supportClasses.Skin;
 
 	/**
 	 * The FilterEditorBase class provides default implementation 
 	 * of IColumnFilterEditor interface and defines base class 
 	 * for some column filter editors.
 	 * 
-	 * <p>If you want to create column filter editor using box layout extend this class.
-	 * If you want to use different layout you will have to use different base class e.g. Form.</p> 
-	 * 
-	 * TODO: Refactor Filter editor classes to use Spark architecture and SkinnableComponent
+	 * TODO: Refactor Filter editor classes so that each editor is a separate SkinnableComponent instead of using SkinnableContainer.
 	 */
-	public class FilterEditorBase extends Box implements IColumnFilterEditor
+	public class FilterEditorBase extends SkinnableContainer implements IColumnFilterEditor
 	{
 		/**
 		 * Construcotr.

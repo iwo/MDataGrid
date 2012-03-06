@@ -104,6 +104,12 @@ package com.iwobanas.spark.components
 		 */
 		protected var columnFiltersChanged:Boolean = false;
 		
+		[Bindable]
+		/**
+		 * Flag indicating if column any filter is active.
+		 */
+		public var filtersActive:Boolean;
+		
 		/**
 		 * Reset all filters so that all filters become inactive.
 		 * After call to this function unfiltered data are displayed.
@@ -192,6 +198,7 @@ package com.iwobanas.spark.components
 			{
 				columnFiltersChanged = false;
 				updateColumnFilterFunctions();
+				filtersActive = (columnFilterFunctions.length > 0);
 				if (collection)
 				{
 					collection.filterFunction = collectionFilterFunction;

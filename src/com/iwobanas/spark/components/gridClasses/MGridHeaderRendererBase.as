@@ -9,6 +9,7 @@ package com.iwobanas.spark.components.gridClasses
 	import flash.events.MouseEvent;
 	
 	import mx.core.IFactory;
+	import mx.events.CloseEvent;
 	
 	import spark.components.PopUpAnchor;
 	import spark.components.ToggleButton;
@@ -69,12 +70,17 @@ package com.iwobanas.spark.components.gridClasses
 				{
 					filterEditorFactory = filterColumn.filterEditor;
 					filterEditorInstance = filterEditorFactory.newInstance();
+					filterEditorInstance.addEventListener(CloseEvent.CLOSE, filterEditorInstance_closeHandler);
 				}
 				return filterEditorInstance;
 			}
 			return null;
 		}
 		
+		protected function filterEditorInstance_closeHandler(event:Event):void
+		{
+			dropDownController.closeDropDown(true);
+		}
 		
 		[Bindable]
 		public var popUpAnchor:PopUpAnchor;

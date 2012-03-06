@@ -22,6 +22,7 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
 	
 	import mx.containers.Box;
+	import mx.events.CloseEvent;
 	import mx.skins.halo.HaloBorder;
 	
 	import spark.components.SkinnableContainer;
@@ -67,6 +68,15 @@ package com.iwobanas.spark.components.gridClasses.filterEditors
 		 */
 		public function endEdit():void
 		{
+		}
+		
+		/**
+		 * Dispatch CloseEvent.CLOSE.
+		 * If this filter editor is used as a dropdown calling dispatchCloseEvent() will close the dropdown.
+		 */
+		protected function dispatchCloseEvent():void
+		{
+			dispatchEvent(new CloseEvent(CloseEvent.CLOSE));
 		}
 		
 	}

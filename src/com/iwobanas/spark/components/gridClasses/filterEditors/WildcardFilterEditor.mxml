@@ -50,6 +50,7 @@ Contributor(s):
 		width="100%"
 		toolTip="You can use wildcards like * or ? to match any sequence of characters or single character."
 		text="{filter.wildcard}"
+		enter="{dispatchCloseEvent()}"
 		creationComplete="{wildcardInput.setFocus()}"
 		change="{filter.wildcard = wildcardInput.text}" />
 		

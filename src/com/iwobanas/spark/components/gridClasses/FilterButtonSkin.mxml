@@ -65,8 +65,8 @@
     
 	<s:BitmapImage id="icon"
 				   verticalCenter="0" horizontalCenter="0"
-				   source="@Embed('assets/icons/filter.png')"
-				   source.selectedStates="@Embed('assets/icons/filter_active.png')"
+				   source="@Embed('/assets/icons/filter.png')"
+				   source.selectedStates="@Embed('/assets/icons/filter_active.png')"
 				   />
     
 </s:SparkButtonSkin>

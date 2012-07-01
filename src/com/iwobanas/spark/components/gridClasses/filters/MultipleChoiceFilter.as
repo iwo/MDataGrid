@@ -20,12 +20,13 @@ Contributor(s):
 package com.iwobanas.spark.components.gridClasses.filters
 {
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
-	
+	import com.iwobanas.spark.components.gridClasses.MDataGridEvent;
+
 	import flash.events.Event;
 	
 	import mx.collections.ArrayCollection;
-	import mx.collections.Sort;
-	
+	import mx.collections.IList;
+
 	/**
 	 * The MultipleChoiceFilter class defines MDataGrid column filter 
 	 * exposing the list of different values appearing in MDataGrid
@@ -41,6 +42,8 @@ package com.iwobanas.spark.components.gridClasses.filters
 		public function MultipleChoiceFilter()
 		{			
 		}
+
+        private var isDynamic:Boolean = true;
 		
 		override public function set column(value:MDataGridColumn):void
 		{
@@ -60,8 +63,8 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		[Bindable]
 		public var selectedLabels:ArrayCollection = new ArrayCollection();
-		
-		public var noSelectionDefault:Boolean = true;
+
+        public var allSelected:Boolean;
 		
 		/**
 		 * Select given label by adding it to <code>selectedLabels</code> list.
@@ -117,7 +120,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		override protected function commitFilterChange():void
 		{
 			var active:Boolean = false;
-			if (!noSelectionDefault || selectedLabels.length != 0)
+			if (selectedLabels.length > 0)
 			{
 				for each (var label:String in labels)
 				{
@@ -127,7 +130,12 @@ package com.iwobanas.spark.components.gridClasses.filters
 						break;
 					}
 				}
+                allSelected = !active;
 			}
+            else
+            {
+                allSelected = false;
+            }
 			_isActive = active;
 			super.commitFilterChange();
 		}
@@ -137,31 +145,65 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		protected function updateLabels():void
 		{
-			//TODO: save filter selection when data are updated
-			var nl:ArrayCollection = new ArrayCollection();
-			for each (var item:Object in dataGrid.unfilteredCollection)
+            var newLabels:Array = getLabels();
+			labels = new ArrayCollection(newLabels);
+			if (allSelected)
 			{
-				var label:String = column.itemToLabel(item);
-				if (label && !nl.contains(label))
-				{
-					nl.addItem(label);
-				}
-			}
-			nl.sort = new Sort();
-			nl.refresh();
-			labels = nl;
-			if (!isActive)
-			{
-				if (noSelectionDefault)
-				{
-					selectedLabels.removeAll();
-				}
-				else
-				{
-					selectedLabels = new ArrayCollection(nl.source);
-				}
+				selectedLabels = new ArrayCollection(newLabels.concat());
 			}
 		}
+
+        protected function getLabels():Array
+        {
+            var labelsMap:Object = {};
+            var labels:Array = [];
+            var filterFunctions:Array = getOtherFilterFunctions();
+            var filterFunctionsActive:Boolean = filterFunctions.length > 0;
+
+            itemsLoop: for each (var item:Object in dataGrid.unfilteredCollection)
+            {
+                if (isDynamic && filterFunctionsActive)
+                {
+                    for each (var otherFilterFunction:Function in filterFunctions)
+                    {
+                        if (!otherFilterFunction(item))
+                            continue itemsLoop;
+                    }
+                }
+
+                var label:String = column.itemToLabel(item);
+                if (label && !labelsMap[label])
+                {
+                    labelsMap[label] = true;
+                    labels.push(label);
+                }
+            }
+
+            labels.sort(Array.CASEINSENSITIVE);
+            return labels;
+        }
+
+        /**
+         * @private
+         */
+        protected function getOtherFilterFunctions():Array
+        {
+            var columns:IList = dataGrid.columns;
+
+            var cff:Array = [];
+            for (var i:int = 0; i < columns.length; i++)
+            {
+                var column:MDataGridColumn = columns.getItemAt(i) as MDataGridColumn;
+                if (column)
+                {
+                    if (column.filter && column.filter != this && column.filter.isActive)
+                    {
+                        cff.push(column.filter.filterFunction);
+                    }
+                }
+            }
+            return cff;
+        }
 		
 		/**
 		 * MDataGrid original collection change event handler.
@@ -170,6 +212,14 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			updateLabels();
 		}
+
+        override protected function activeFiltersChangeHandler(event:MDataGridEvent):void
+        {
+            if (isDynamic)
+            {
+                updateLabels();
+            }
+        }
 		
 		[Bindable("filterValueChange")]
 		/**
@@ -188,10 +238,6 @@ package com.iwobanas.spark.components.gridClasses.filters
 		override public function resetFilter():void
 		{
 			deselectAll();
-			if (!noSelectionDefault)
-			{
-				selectAll();
-			}
 		}
 		
 		/**

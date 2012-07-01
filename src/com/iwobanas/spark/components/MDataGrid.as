@@ -17,7 +17,14 @@ package com.iwobanas.spark.components
 	 * @eventType com.iwobanas.spark.components.gridClasses.MDataGridEvent.UNFILTERED_COLLECTION_CHANGE
 	 */
 	[Event(name="unfilteredCollectionChange",type="com.iwobanas.spark.components.gridClasses.MDataGridEvent")]
-	
+
+    /**
+     * Dispatched when the change in the selected filters takes effect i.e. during <code>commitProperties()</code>.
+     *
+     * @eventType com.iwobanas.spark.components.gridClasses.MDataGridEvent.ACTIVE_FILTERS_CHANGE
+     */
+    [Event(name="activeFiltersChange",type="com.iwobanas.spark.components.gridClasses.MDataGridEvent")]
+
 	/**
 	 * The MDataGrid class extends Spark DataGrid by adding filtering and preserving sort on data provider change.
 	 * 
@@ -204,6 +211,7 @@ package com.iwobanas.spark.components
 					collection.filterFunction = collectionFilterFunction;
 					collection.refresh();
 				}
+                dispatchEvent(new MDataGridEvent(MDataGridEvent.ACTIVE_FILTERS_CHANGE));
 			}
 			super.commitProperties();
 		}

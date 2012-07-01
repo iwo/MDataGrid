@@ -24,7 +24,7 @@ package com.iwobanas.spark.components.gridClasses
 	/**
 	 * The MDataGridEvent class represents associated with MDataGrid features.
 	 * 
-	 * @see com.iwobanas.spark.components.MDataGridEvent
+	 * @see com.iwobanas.spark.components.MDataGrid
 	 * @see com.iwobanas.spark.components.gridClasses.filters.ColumnFilterBase
 	 */
 	public class MDataGridEvent extends Event
@@ -51,7 +51,15 @@ package com.iwobanas.spark.components.gridClasses
      	 * <code>unfilteredCollectionChange</code> event, which indicates that 
      	 * the MDataGrid <code>unfilteredCollectionChange</code> property was modified.
 		 */
-		public static const UNFILTERED_COLLECTION_CHANGE:String = "unfilteredCollectionChange"
+		public static const UNFILTERED_COLLECTION_CHANGE:String = "unfilteredCollectionChange";
+
+        /**
+         * The MDataGridEvent.ACTIVE_FILTERS_CHANGE constant defines the value of the
+         * <code>type</code> property of the event object for a
+         * <code>activeFiltersChange</code> event, which is dispatched by MDataGridColumn
+         * to indicate that filter selection got modified.
+         */
+        public static const ACTIVE_FILTERS_CHANGE:String = "activeFiltersChange";
 		
 		/**
 		 * Constructor.

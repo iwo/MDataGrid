@@ -119,11 +119,13 @@ package com.iwobanas.spark.components.gridClasses.filters
 			if (_column)
 			{
 				dataGrid.removeEventListener(MDataGridEvent.UNFILTERED_COLLECTION_CHANGE, unfilteredCollectionChangeHandler, false);
+				dataGrid.removeEventListener(MDataGridEvent.ACTIVE_FILTERS_CHANGE, activeFiltersChangeHandler, false);
 			}
 			_column = value;
 			if (_column)
 			{
 				dataGrid.addEventListener(MDataGridEvent.UNFILTERED_COLLECTION_CHANGE, unfilteredCollectionChangeHandler, false, 0, true);
+				dataGrid.addEventListener(MDataGridEvent.ACTIVE_FILTERS_CHANGE, activeFiltersChangeHandler, false, 0, true);
 			}
 		}
 		protected var _column:MDataGridColumn;
@@ -151,5 +153,9 @@ package com.iwobanas.spark.components.gridClasses.filters
 		protected function unfilteredCollectionChangeHandler(event:Event):void
 		{
 		}
+
+        protected function activeFiltersChangeHandler(event:MDataGridEvent):void
+        {
+        }
 	}
 }

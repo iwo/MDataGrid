@@ -26,8 +26,9 @@ package com.iwobanas.spark.components.gridClasses.filters
 	
 	import mx.collections.ArrayCollection;
 	import mx.collections.IList;
+	import mx.utils.ObjectUtil;
 
-	/**
+/**
 	 * The MultipleChoiceFilter class defines MDataGrid column filter 
 	 * exposing the list of different values appearing in MDataGrid
 	 * column and allowing user to select which values should be displayed.
@@ -146,6 +147,10 @@ package com.iwobanas.spark.components.gridClasses.filters
 		protected function updateLabels():void
 		{
             var newLabels:Array = getLabels();
+
+            if (labels && ObjectUtil.compare(newLabels, labels.source) == 0)
+                return;
+
 			labels = new ArrayCollection(newLabels);
 			if (allSelected)
 			{

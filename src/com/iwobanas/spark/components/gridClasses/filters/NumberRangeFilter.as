@@ -20,7 +20,8 @@ Contributor(s):
 package com.iwobanas.spark.components.gridClasses.filters
 {
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
-	
+	import com.iwobanas.spark.components.gridClasses.MDataGridEvent;
+
 	import flash.events.Event;
 
 	/**
@@ -115,6 +116,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 			var max:Number = Number.MIN_VALUE;
 			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
+				if (!otherFiltersMatch(item))
+				{
+					continue;
+				}
+
 				var value:Number = itemToNumber(item);
 				if (!isNaN(value))
 				{
@@ -122,8 +128,18 @@ package com.iwobanas.spark.components.gridClasses.filters
 					max = Math.max(value, max);
 				}
 			}
+			if (minActive)
+			{
+				min = Math.min(min, minimum);
+			}
 			dataMinimum = min;
+
+			if (maxActive)
+			{
+				max = Math.max(max, maximum);
+			}
 			dataMaximum = max;
+
 			if (!minActive)
 			{
 				minimum = min;
@@ -133,7 +149,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 				maximum = max;
 			}
 		}
-		
+
 		/**
 		 * @private
 		 * Collection change event handler attached to original collection of MDataGrid.
@@ -142,7 +158,13 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			updateOriginalDataRange();
 		}
-		
+
+		override protected function activeFiltersChangeHandler(event:MDataGridEvent):void
+		{
+			super.activeFiltersChangeHandler(event);
+			updateOriginalDataRange();
+		}
+
 		/**
 		 * Return numeric value for the given item.
 		 * @param item MDataGrid item.
@@ -150,7 +172,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		protected function itemToNumber(item:Object):Number
 		{
-			var value:Number
+			var value:Number;
 			try
 			{
 				if (column.dataField)

@@ -1,0 +1,12 @@
+MDataGrid library adds filtering to the Flex 4 Spark DataGrid.
+It also provides the CSV export functionality.
+
+This project is based on my previous MX DataGrid filtering implementation available at http://code.google.com/p/reusable-fx/
+Not all the feature has been ported to Spark components yet so it still depends on MX.
+
+BUILD
+This package contains project files for Adobe Flash Builder and IntelliJ IDEA so if you are using this IDE
+you should be able to simply import it into your project/workspace.
+
+LICENSE
+This project is distributed under Mozilla Public License Version 1.1

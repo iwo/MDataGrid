@@ -59,11 +59,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 		[Bindable]
 		public var dataMaximum:Number;
 		
+		[Bindable("minimumChange")]
 		/**
 		 * Minimum value allowed in MDataGrid column related to this filter.
 		 * Items with value less than <code>minimum</code> will be eliminated.
 		 */
-		[Bindable]
 		public function get minimum():Number
 		{
 			return _minimum;
@@ -75,6 +75,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			_minimum = value;
 			minActive = (minimum != dataMinimum);
+			dispatchEvent(new Event("minimumChange"));
 			commitFilterChange();
 		}
 		/**
@@ -83,11 +84,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		protected var _minimum:Number;
 		
+		[Bindable("maximumChange")]
 		/**
 		 * Maximum value allowed in MDataGrid column related to this filter.
 		 * Items with value greater than <code>minimum</code> will be eliminated.
 		 */
-		[Bindable]
 		public function get maximum():Number
 		{
 			return _maximum;
@@ -99,6 +100,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			_maximum = value;
 			maxActive = (maximum != dataMaximum);
+			dispatchEvent(new Event("maximumChange"));
 			commitFilterChange();
 		}
 		/**

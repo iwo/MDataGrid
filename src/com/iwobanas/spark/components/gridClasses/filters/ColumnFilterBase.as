@@ -26,7 +26,9 @@ package com.iwobanas.spark.components.gridClasses.filters
 	
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
-	
+
+	import mx.collections.IList;
+
 	import mx.core.mx_internal;
 	
 	/**
@@ -54,6 +56,13 @@ package com.iwobanas.spark.components.gridClasses.filters
 	 */ 
 	public class ColumnFilterBase extends EventDispatcher
 	{
+        /**
+         * Array of filter functions of other active filters applied to this DataGrid.
+         * This array is used by <code>matchOtherFilters()</code> to allow dynamic filter change
+         * based on changes in other filters.
+         */
+        private var otherFiltersFilterFunctions:Array;
+
 		/**
 		 * Constructor.
 		 */
@@ -149,6 +158,43 @@ package com.iwobanas.spark.components.gridClasses.filters
 			}
 			dispatchEvent(new MDataGridEvent(MDataGridEvent.FILTER_VALUE_CHANGE));
 		}
+
+        /**
+         * @private
+         */
+        protected function updateOtherFiltersFilterFunctions():void
+        {
+            var columns:IList = dataGrid.columns;
+
+            otherFiltersFilterFunctions = [];
+            for (var i:int = 0; i < columns.length; i++)
+            {
+                var column:MDataGridColumn = columns.getItemAt(i) as MDataGridColumn;
+                if (column)
+                {
+                    if (column.filter && column.filter != this && column.filter.isActive)
+                    {
+                        otherFiltersFilterFunctions.push(column.filter.filterFunction);
+                    }
+                }
+            }
+        }
+
+        /**
+         * Check if the given item will match other filters.
+         * @param item
+         * @return true if item matches all other filters, false it it will be filtered out.
+         */
+        protected function otherFiltersMatch(item:Object):Boolean
+        {
+            for each (var otherFilterFunction:Function in otherFiltersFilterFunctions)
+            {
+                if (!otherFilterFunction(item))
+                    return false;
+
+            }
+            return true;
+        }
 		
 		protected function unfilteredCollectionChangeHandler(event:Event):void
 		{
@@ -156,6 +202,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 
         protected function activeFiltersChangeHandler(event:MDataGridEvent):void
         {
+            updateOtherFiltersFilterFunctions();
         }
 	}
 }

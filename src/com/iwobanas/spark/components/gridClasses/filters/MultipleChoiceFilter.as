@@ -43,8 +43,6 @@ package com.iwobanas.spark.components.gridClasses.filters
 		public function MultipleChoiceFilter()
 		{			
 		}
-
-        private var isDynamic:Boolean = true;
 		
 		override public function set column(value:MDataGridColumn):void
 		{
@@ -162,18 +160,12 @@ package com.iwobanas.spark.components.gridClasses.filters
         {
             var labelsMap:Object = {};
             var labels:Array = [];
-            var filterFunctions:Array = getOtherFilterFunctions();
-            var filterFunctionsActive:Boolean = filterFunctions.length > 0;
 
-            itemsLoop: for each (var item:Object in dataGrid.unfilteredCollection)
+            for each (var item:Object in dataGrid.unfilteredCollection)
             {
-                if (isDynamic && filterFunctionsActive)
+                if (!otherFiltersMatch(item))
                 {
-                    for each (var otherFilterFunction:Function in filterFunctions)
-                    {
-                        if (!otherFilterFunction(item))
-                            continue itemsLoop;
-                    }
+                    continue;
                 }
 
                 var label:String = column.itemToLabel(item);
@@ -187,28 +179,6 @@ package com.iwobanas.spark.components.gridClasses.filters
             labels.sort(Array.CASEINSENSITIVE);
             return labels;
         }
-
-        /**
-         * @private
-         */
-        protected function getOtherFilterFunctions():Array
-        {
-            var columns:IList = dataGrid.columns;
-
-            var cff:Array = [];
-            for (var i:int = 0; i < columns.length; i++)
-            {
-                var column:MDataGridColumn = columns.getItemAt(i) as MDataGridColumn;
-                if (column)
-                {
-                    if (column.filter && column.filter != this && column.filter.isActive)
-                    {
-                        cff.push(column.filter.filterFunction);
-                    }
-                }
-            }
-            return cff;
-        }
 		
 		/**
 		 * MDataGrid original collection change event handler.
@@ -220,10 +190,8 @@ package com.iwobanas.spark.components.gridClasses.filters
 
         override protected function activeFiltersChangeHandler(event:MDataGridEvent):void
         {
-            if (isDynamic)
-            {
-                updateLabels();
-            }
+            super.activeFiltersChangeHandler(event);
+            updateLabels();
         }
 		
 		[Bindable("filterValueChange")]

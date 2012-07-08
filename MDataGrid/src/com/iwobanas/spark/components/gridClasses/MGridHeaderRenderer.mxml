@@ -1,34 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
+The contents of this file are subject to the Mozilla Public License
+Version 1.1 (the "License"); you may not use this file except in
+compliance with the License. You may obtain a copy of the License at
+http://www.mozilla.org/MPL/
 
-ADOBE SYSTEMS INCORPORATED
-Copyright 2010 Adobe Systems Incorporated
-All Rights Reserved.
+Software distributed under the License is distributed on an "AS IS"
+basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+License for the specific language governing rights and limitations
+under the License.
 
-NOTICE: Adobe permits you to use, modify, and distribute this file
-in accordance with the terms of the license agreement accompanying it.
+The Original Code is: www.iwobanas.com code samples.
 
+The Initial Developer of the Original Code is Iwo Banas.
+Portions created by the Initial Developer are Copyright (C) 2012
+the Initial Developer. All Rights Reserved.
+
+Contributor(s):
 -->
-
-<!--- 
-
-The DefaultGridHeaderRenderer class defines the default header renderer 
-for the columns of a Spark DataGrid control.
-
-<p>Subclasses defined in MXML can redefine the values of the <code>labelDisplay</code>
-and <code>sortIndicator</code> properties.</p>
-
-@see spark.components.DataGrid
-@see spark.components.GridColumnHeaderGroup
-@see spark.components.gridClasses.GridItemRenderer
-
-@langversion 3.0
-@playerversion Flash 10
-@playerversion AIR 2.0
-@productversion Flex 4.5
--->
-
 <gridClasses:MGridHeaderRendererBase
 	minWidth="21" minHeight="21"
 	xmlns:fx="http://ns.adobe.com/mxml/2009" 

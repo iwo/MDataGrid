@@ -3,6 +3,10 @@
 bin-debug
 bin
 
+# IntelliJ IDEA files
+out
+.idea
+
 # SVN
 .svn
 

@@ -38,6 +38,6 @@
 		change="{filter.maximum = (maxChooser.selectedDate ? maxChooser.selectedDate : filter.dataMaximum)}"  />
 	
 	<s:Button label="Reset" width="100%" 
-		click="{filter.minimum = filter.dataMinimum; filter.maximum = filter.dataMaximum}"
+		click="{filter.resetFilter()}"
 		enabled="{filter.isActive}" />
 </FilterEditorBase>

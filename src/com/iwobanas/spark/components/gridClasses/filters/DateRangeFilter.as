@@ -20,7 +20,8 @@ Contributor(s):
 package com.iwobanas.spark.components.gridClasses.filters
 {
 	import com.iwobanas.spark.components.gridClasses.MDataGridColumn;
-	
+	import com.iwobanas.spark.components.gridClasses.MDataGridEvent;
+
 	import flash.events.Event;
 
 	/**
@@ -58,11 +59,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 		[Bindable]
 		public var dataMaximum:Date;
 		
+		[Bindable("minimumChange")]
 		/**
 		 * Minimum date allowed in MDataGrid column related to this filter.
 		 * Items with date less than <code>minimum</code> will be eliminated.
 		 */
-		[Bindable]
 		public function get minimum():Date
 		{
 			return _minimum;
@@ -74,6 +75,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			_minimum = value;
 			minActive = (minimum != dataMinimum);
+			dispatchEvent(new Event("minimumChange"));
 			commitFilterChange();
 		}
 		/**
@@ -82,11 +84,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		protected var _minimum:Date;
 		
+		[Bindable("maximumChange")]
 		/**
 		 * Maximum date allowed in MDataGrid column related to this filter.
 		 * Items with date greater than <code>minimum</code> will be eliminated.
 		 */
-		[Bindable]
 		public function get maximum():Date
 		{
 			return _maximum;
@@ -97,7 +99,8 @@ package com.iwobanas.spark.components.gridClasses.filters
 		public function set maximum(value:Date):void
 		{
 			_maximum = value;
-			maxActive = (maximum != dataMaximum)
+			maxActive = (maximum != dataMaximum);
+			dispatchEvent(new Event("maximumChange"));
 			commitFilterChange();
 		}
 		/**
@@ -115,6 +118,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 			var max:Date = new Date(-10000,0,1);
 			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
+				if (!otherFiltersMatch(item))
+				{
+					continue;
+				}
+
 				var value:Date = itemToDate(item);
 				if (value)
 				{
@@ -128,8 +136,18 @@ package com.iwobanas.spark.components.gridClasses.filters
 					}
 				}
 			}
+			if (minActive && min > minimum)
+			{
+				min = minimum;
+			}
 			dataMinimum = min;
+
+			if (maxActive && max < maximum)
+			{
+				max = maximum;
+			}
 			dataMaximum = max;
+
 			if (!minActive)
 			{
 				minimum = min;
@@ -146,6 +164,15 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */ 
 		override protected function unfilteredCollectionChangeHandler(event:Event):void
 		{
+			updateOriginalDateRange();
+		}
+
+		/**
+		 * @private
+		 */
+		override protected function activeFiltersChangeHandler(event:MDataGridEvent):void
+		{
+			super.activeFiltersChangeHandler(event);
 			updateOriginalDateRange();
 		}
 		

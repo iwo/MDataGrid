@@ -160,6 +160,7 @@ package com.iwobanas.spark.components.gridClasses.filters
         {
             var labelsMap:Object = {};
             var labels:Array = [];
+			var label:String;
 
             for each (var item:Object in dataGrid.unfilteredCollection)
             {
@@ -168,13 +169,22 @@ package com.iwobanas.spark.components.gridClasses.filters
                     continue;
                 }
 
-                var label:String = column.itemToLabel(item);
+				label = column.itemToLabel(item);
                 if (label && !labelsMap[label])
                 {
                     labelsMap[label] = true;
                     labels.push(label);
                 }
             }
+
+			for each (label in selectedLabels)
+			{
+				if (!labelsMap[label])
+				{
+					labelsMap[label] = true;
+					labels.push(label);
+				}
+			}
 
             labels.sort(Array.CASEINSENSITIVE);
             return labels;

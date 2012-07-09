@@ -122,6 +122,7 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			var min:Number = Number.MAX_VALUE;
 			var max:Number = Number.MIN_VALUE;
+			var hasValue:Boolean = false;
 			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
 				if (!otherFiltersMatch(item))
@@ -134,8 +135,16 @@ package com.iwobanas.spark.components.gridClasses.filters
 				{
 					min = Math.min(value, min);
 					max = Math.max(value, max);
+					hasValue = true;
 				}
 			}
+
+			if (!hasValue)
+			{
+				min = 0;
+				max = 0;
+			}
+
 			if (minActive)
 			{
 				min = Math.min(min, minimum);

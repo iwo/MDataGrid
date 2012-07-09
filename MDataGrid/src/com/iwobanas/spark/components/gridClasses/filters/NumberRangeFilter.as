@@ -73,10 +73,13 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		public function set minimum(value:Number):void
 		{
-			_minimum = value;
-			minActive = (minimum != dataMinimum);
-			dispatchEvent(new Event("minimumChange"));
-			commitFilterChange();
+			minActive = (value != dataMinimum);
+			if (value != _minimum)
+			{
+				_minimum = value;
+				dispatchEvent(new Event("minimumChange"));
+				commitFilterChange();
+			}
 		}
 		/**
 		 * @private
@@ -98,10 +101,13 @@ package com.iwobanas.spark.components.gridClasses.filters
 		 */
 		public function set maximum(value:Number):void
 		{
-			_maximum = value;
-			maxActive = (maximum != dataMaximum);
-			dispatchEvent(new Event("maximumChange"));
-			commitFilterChange();
+			maxActive = (value != dataMaximum);
+			if (value != _maximum)
+			{
+				_maximum = value;
+				dispatchEvent(new Event("maximumChange"));
+				commitFilterChange();
+			}
 		}
 		/**
 		 * @private

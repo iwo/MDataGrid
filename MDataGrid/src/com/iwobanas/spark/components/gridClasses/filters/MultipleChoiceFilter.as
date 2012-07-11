@@ -161,10 +161,11 @@ package com.iwobanas.spark.components.gridClasses.filters
             var labelsMap:Object = {};
             var labels:Array = [];
 			var label:String;
+			var filter:Boolean = dataGrid.dynamicFilteringEnabled;
 
             for each (var item:Object in dataGrid.unfilteredCollection)
             {
-                if (!otherFiltersMatch(item))
+                if (filter && !otherFiltersMatch(item))
                 {
                     continue;
                 }
@@ -201,7 +202,10 @@ package com.iwobanas.spark.components.gridClasses.filters
         override protected function activeFiltersChangeHandler(event:MDataGridEvent):void
         {
             super.activeFiltersChangeHandler(event);
-            updateLabels();
+			if (dataGrid.dynamicFilteringEnabled)
+			{
+            	updateLabels();
+			}
         }
 		
 		[Bindable("filterValueChange")]

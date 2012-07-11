@@ -116,9 +116,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 		{
 			var min:Date = new Date(10000,0,1); //is there infinity date?
 			var max:Date = new Date(-10000,0,1);
+			var filter:Boolean = dataGrid.dynamicFilteringEnabled;
+
 			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
-				if (!otherFiltersMatch(item))
+				if (filter && !otherFiltersMatch(item))
 				{
 					continue;
 				}
@@ -173,7 +175,10 @@ package com.iwobanas.spark.components.gridClasses.filters
 		override protected function activeFiltersChangeHandler(event:MDataGridEvent):void
 		{
 			super.activeFiltersChangeHandler(event);
-			updateOriginalDateRange();
+			if (dataGrid.dynamicFilteringEnabled)
+			{
+				updateOriginalDateRange();
+			}
 		}
 		
 		/**

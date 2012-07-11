@@ -78,6 +78,13 @@ package com.iwobanas.spark.components
 		{
 			return _unfilteredCollection;
 		}
+
+		/**
+		 * Flag indicating if dynamic filtering i.e. changing state of one filter based on the selection to the other is enabled.
+		 * Setting this flag to <code>false</code> may improve performance.
+		 * @default true
+		 */
+		public var dynamicFilteringEnabled:Boolean = true;
 		
 		/**
 		 * @private 

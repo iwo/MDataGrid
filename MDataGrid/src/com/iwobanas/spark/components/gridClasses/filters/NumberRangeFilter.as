@@ -123,9 +123,11 @@ package com.iwobanas.spark.components.gridClasses.filters
 			var min:Number = Number.MAX_VALUE;
 			var max:Number = Number.MIN_VALUE;
 			var hasValue:Boolean = false;
+			var filter:Boolean = dataGrid.dynamicFilteringEnabled;
+
 			for each (var item:Object in dataGrid.unfilteredCollection)
 			{
-				if (!otherFiltersMatch(item))
+				if (filter && !otherFiltersMatch(item))
 				{
 					continue;
 				}
@@ -179,7 +181,10 @@ package com.iwobanas.spark.components.gridClasses.filters
 		override protected function activeFiltersChangeHandler(event:MDataGridEvent):void
 		{
 			super.activeFiltersChangeHandler(event);
-			updateOriginalDataRange();
+			if (dataGrid.dynamicFilteringEnabled)
+			{
+				updateOriginalDataRange();
+			}
 		}
 
 		/**
